@@ -118,7 +118,7 @@ nav ul li a {
 .customMainHeader {
 	width: 100%;
 	height: 200px;
-	background-image: url(../Images/Sketches_banner_teal.jpg);
+	background-image: url(../Image/Sketches_banner_teal.jpg);
 	background-size: cover;
 	position: relative;
 	text-align: center;
@@ -290,7 +290,7 @@ nav ul li a {
 	width: 80%;
 	margin: 0 auto;
 	height: 600px;
-	background-image: url(../Images/JudeBottomImg_FourthSize_Cropped.jpg);
+	background-image: url(../Image/JudeBottomImg_FourthSize_Cropped.jpg);
 	position: relative;
 	margin-top: 50px;
 }

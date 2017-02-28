@@ -296,7 +296,7 @@ h5{
 }
 
 .homeContainer {
-	background-image: url("../Images/bnr-img_edited2.jpg");
+	background-image: url("../Image/bnr-img_edited2.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
   background-position: -450px 0px;
@@ -372,7 +372,7 @@ h5{
 }
 
 .contentPromo {
-  background-image: url("../Images/swing_edited_smaller.png");
+  background-image: url("../Image/swing_edited_smaller.png");
   color: white;
 /*  height: 61vh;
 */  padding-top: 65px;
@@ -559,7 +559,7 @@ footer h3 {
   
 @media screen and (min-width: 600px) {
   .homeContainer {
-    background-image: url("../Images/bnr-img_edited2.jpg");
+    background-image: url("../Image/bnr-img_edited2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: -400px 0px;
@@ -575,7 +575,7 @@ footer h3 {
   
 @media screen and (min-width: 700px) {
   .homeContainer {
-    background-image: url("../Images/bnr-img_edited2.jpg");
+    background-image: url("../Image/bnr-img_edited2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: -300px 0px;
@@ -595,7 +595,7 @@ footer h3 {
     display: block;
   }
   .contentPromo {
-    background-image: url("../Images/swing_edited_smaller.png");
+    background-image: url("../Image/swing_edited_smaller.png");
     color: white;
 /*    height: 61vh;
 */    padding-top: 65px;
@@ -613,7 +613,7 @@ footer h3 {
   
 @media screen and (min-width: 750px) and (min-height: 1024px) {
   .homeContainer {
-    background-image: url("../Images/bnr-img_edited2.jpg");
+    background-image: url("../Image/bnr-img_edited2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: -600px 0px;
@@ -633,7 +633,7 @@ footer h3 {
     display: block;
   }
   .contentPromo {
-    background-image: url("../Images/swing_edited_smaller.png");
+    background-image: url("../Image/swing_edited_smaller.png");
     color: white;
 /*    height: 61vh;
 */    padding-top: 65px;
@@ -648,7 +648,7 @@ footer h3 {
   
 @media screen and (min-width: 900px) {
   .homeContainer {
-    background-image: url("../Images/bnr-img_edited2.jpg");
+    background-image: url("../Image/bnr-img_edited2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: -200px 0px;
@@ -665,7 +665,7 @@ footer h3 {
   
 @media screen and (min-width: 1000px) {
   .homeContainer {
-    background-image: url("../Images/bnr-img_edited2.jpg");
+    background-image: url("../Image/bnr-img_edited2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: -150px 0px;
@@ -782,7 +782,7 @@ footer h3 {
   
 @media screen and (min-width: 1079px) {
   .homeContainer {
-    background-image: url("../Images/bnr-img_edited2.jpg");
+    background-image: url("../Image/bnr-img_edited2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: -50px 0px;
@@ -799,7 +799,7 @@ footer h3 {
   
 @media screen and (min-width: 1100px) {
   .homeContainer {
-    background-image: url("../Images/bnr-img_edited2.jpg");
+    background-image: url("../Image/bnr-img_edited2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px 0px;
