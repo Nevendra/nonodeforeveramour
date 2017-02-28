@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Custom Gowns | Forever Amour Bridal Boutique</title>
+
+	<meta name="charset" content="utf-8">
+	<meta http-equiv="content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+	<meta name="description" content="Your dream dress created here, a handcrafted wedding gown custom-made only for you by renowned designer Jude Jowilson.">
+	<meta name="keywords" content="custom, couture, designer, gown, dress, hand made, handcrafted, design, jude, jowilson">
+
+	<link rel="icon" type="image/ico" href="Images/BridalFavicon.ico">
+
+	<link rel="stylesheet" type="text/css" href="CSS/font-awesome.css">
+
+	<link rel="stylesheet" type="text/css" href="CSS/aboutJudeJowilson.css">
+		<link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
+
+
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+	<link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+
+	<!--Google Analytics account: Forever Amour
+	Use it to track website stats. Tracking ID: UA-86456732-1
+	-->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-86456732-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script>
+	<script type="text/javascript" src="JAVASCRIPT/value.js"></script>
+	<script type="text/javascript" src="JAVASCRIPT/service.js"></script>
+    <script rel="stylesheet" type="text/javascript" src="JAVASCRIPT/collectionAngularImageGallery.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<script src="JAVASCRIPT/aboutJudeJowilson.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+
+<body>
+
+
+<!-- <div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'ar,en,fa,fr,hr,ko,pt,ru,es,tl,tr,zh-CN', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-80185265-1'}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
+<!-- _______________________________Header__________________________________ -->
+
+<nav class="stroke">
+  <div class="logoNav">
+    <p><a href="/">Forever Amour Bridal Boutique</a></p>
+  </div>
+  <div class="hamburger">
+  	<img src="Images/hamburgerMenuIcon.png">
+  </div>
+    <ul class="float">
+          <li><a href="about.html" class="currentPage btn btn-4">About</a></li>
+          <li><a href="collection.html" class="currentPage btn btn-4">Our Collection</a></li>
+          <li><a href="aboutJudeJowilson.html" class="currentPage btn btn-4">Jude Jowilson</a></li>
+          <li><a href="contact.html" class="currentPage btn btn-4">Contact</a></li>
+          <li><a href="#" class="currentPage btn btn-4">Start Here</a></li>
+          <li class="showAppointment"><a href="appointment.html" class="currentPage btn btn-4">Make An Appointment</a></li>
+    </ul>
+<div class="stro">
+      <a href="appointment.html">Make An Appointment</a>
+  </div>
+</nav>
+
+<!-- _______________________________END Header__________________________________ -->
+<div class="mainContent" ng-app="CollectionImageGallery" ng-controller="CollectionImageGalleryController as ctrl">
+	<div class="content">
+		<div class="selectedImage" ng-if="ctrl.clickedThumbNail == true">
+			<div class="selectedImageContent">
+				<p class="previous" ng-click="ctrl.prevImage(ctrl.justJude)">&laquo;</p>
+				<img class="theSelectedImage" src="{{ctrl.selectedImage}}">
+				<p class="next" ng-click="ctrl.nextImage(ctrl.justJude)">&raquo;</p>
+				<P class="close" ng-click="ctrl.closeDesignerImageGallerySelectedImage()">X</P>
+			</div>
+			<div class="clear"></div>
+			</div>
+		</div>
+		<div class="ladyImage">
+			<div class="judeAbout">
+					<div class="judeTitle">
+						<p>Jude Makes Our Salon Extraordinary</p>
+						<p class="subTitle">
+							Custom Dresses Designed by Jude Jowilson
+						</p>
+					</div>
+					<p class="aboutText">
+						The Jude Jowilson collection is a couture collection of elegant, handcrafted gowns that are custom created to perfectly fit your body and vision.
+					</p>
+
+
+					<p class="aboutText">
+						Jude has joined the Forever Amour Bridal Boutique as our in-house designer offering his collection exclusively to our brides looking for a chic gown not found elsewhere. 
+					</p>
+
+					<p class="dressesButton">View Jude's Custom Dresses</p>
+			</div>
+
+		</div>
+		<div class="imageGallery">
+				<img ng-repeat="gallery in ctrl.justJude" ng-click="ctrl.viewLargeImage(gallery.img, ctrl.justJude, $index)" src="{{gallery.img}}">
+		</div>
+	</div>
+
+</div>
+
+<footer>
+ <div class="footerSocialMedia">
+<!--      <h3>Follow Us</h3> -->
+      <div id="footer-social">
+        <a class="socialLink" href="https://www.theknot.com/marketplace/forever-amour-bridal-boutique-new-york-ny-546587" target="_blank">
+          <img id="knotIcon" src="Images/SocialMediaIcons/Knot_SocialIcon_transparent.png" alt="The Knot Icon" title="The Knot Wedding Network">
+        </a>
+
+        <a class="socialLink" href="https://www.facebook.com/ForeverAmourBridalDresses/" target="_blank">
+          <img id="fbIcon" src="Images/SocialMediaIcons/FB_SocialIcon_transparent.png" alt="Facebook Icon" title="Facebook">
+        </a>
+
+        <a class="socialLink" href="https://twitter.com/foreveramournyc" target="_blank">
+          <img id="twitterIcon" src="Images/SocialMediaIcons/Twitter_SocialIcon_transparent.png" alt="Twitter Icon" title="Twitter">
+        </a>
+
+        <a class="socialLink" href="https://www.pinterest.com/foreveramour/" target="_blank">
+          <img id="pinterestIcon" src="Images/SocialMediaIcons/Pinterest_SocialIcon_transparent.png" alt="Pinterest Icon" title="Pinterest">
+        </a>
+
+        <a class="socialLink" href="https://www.instagram.com/foreveramourbridalboutique/" target="_blank">
+          <img id="instagramIcon" src="Images/SocialMediaIcons/Instagram_SocialIcon_transparent.png" alt="Instagram Icon" title="Instagram">
+        </a>
+      </div>
+
+<!-- start footer -->
+ <div class="footerContact">
+      <p>212 - 486 -2900</p>
+      <p>1089 Second Ave.Suite 2</p>
+      <p>New York, NY 10022</p>
+      <p>stylist@foreveramourbridal.com</p>
+        <h5>© 2017 Forever Amour Bridal Boutique All rights reserved.</h5>
+    </div>
+      <div class="copyright">
+    </div>
+  </div>
+</footer>
+
+</body>
+
+</html>

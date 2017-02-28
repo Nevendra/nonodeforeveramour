@@ -1,0 +1,497 @@
+* {
+    margin:-4px auto;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  color: black;
+  padding: 0;
+  margin: 0;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+body {
+  padding-top: 100px;
+  background-color: white;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+/*-----------------------------------NAV--------------------------------------*/
+
+nav {
+  width: 100%;
+  height: 104px;
+  border-bottom: solid 1px #998100;
+  position: fixed;
+  z-index: 50;
+  top: 0px;
+  background-color: white;
+  -webkit-box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.75);
+}
+nav ul {
+   width: 100%;
+/*    height: 0px;*/
+  text-align: center;
+  margin-left: 0px;
+}
+nav ul li {
+    display: block;
+    text-align: center;
+    padding: -27px;
+    margin: 9.5px;
+    padding: initial;
+}
+
+
+nav ul li a {
+  color: #4ab2b2;
+  text-decoration: none;
+  font-size: 17px;
+}
+.clear {
+  clear: both;;
+}
+.float {
+    float: left;
+}
+.hamburger{
+  display: block;
+  position: fixed;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.hamburger img {
+  height: 25px;
+  width: 25px;
+}
+nav {
+  width: 100%;
+  height: 108px;
+  border-bottom: solid 1px #998100;
+  position: fixed;
+  z-index: 50;
+  top: 0px;
+  background-color: white;
+  -webkit-box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.75);
+  padding-top: 10px;
+  font-family: 'Rajdhani', sans-serif;
+
+}
+nav ul {
+  width: 100%;
+/*  height: 0px;*/
+  display: none;
+  padding-top: 20px;
+  background-color: white;
+}
+nav ul li {
+    display: block;
+    text-align: center;
+    padding: -27px;
+    margin: 6.5px;
+    padding: initial;
+}
+nav ul li a {
+  color: #4ab2b2;
+  text-decoration: none;
+  font-size: 17px;
+ }
+
+/*--------------------------BUTTON EFFECT -----------------------*/
+.showAppointment {
+  display: block;
+
+}
+.showAppointment a {
+  color: #ef8e89;
+}
+.stro{
+    overflow: hidden;
+    float: right;
+    margin-right: 71px;
+    padding: 5.5px;
+    text-align: center;
+
+    float: right;
+    position: relative;
+    font-size: large;
+    display: none;
+}
+.stro a{
+    color: #ef8e89;
+    text-decoration: none;
+    position: relative;
+    /* width: 8vw; */
+    padding: 18px;
+
+}
+.stro a:after{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+
+.stro a:hover{
+  text-decoration: none;
+  color:white;
+  background-color: #ef8e89;
+
+}
+
+.stro  a:hover:after {
+  width: 100%;
+}
+
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+nav.fill ul li a {
+  transition: all 2s;
+}
+
+nav.fill ul li a:after {
+  text-align: left;
+  content: '.';
+  margin: 0;
+  opacity: 0;
+}
+nav.fill ul li a:hover {
+  color: #fff;
+  z-index: 1;
+}
+nav.fill ul li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  -webkit-animation: fill 1s forwards;
+  -moz-animation: fill 1s forwards;
+  opacity: 1;
+}
+
+/*---------------NEED THIS FOR THE HOVER--------------*/
+.btn-4:hover:after {
+ -webkit-transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+
+}
+h5{
+      font-weight: 300;
+    padding-top: 10px;
+    text-align: center;
+
+}
+/*END OF FOOTER*/
+
+ /* LI CLASS */
+.currentPage a {
+  color: white;
+}
+
+.float {
+    float: left;
+}
+
+.appointment {
+  text-decoration: none;
+    overflow: hidden;
+   float: right;
+    margin-right: 57px;
+    padding: 8px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.logo {
+  padding-top: 120px;
+  text-align: center;
+  position: absolute;
+  left: 130px;
+}
+
+.logo a{
+  font-family: "Great Vibes", sans-serif;
+  padding-right: 10px;
+  text-decoration: none;
+}
+.logo span {
+  font-family: "Great Vibes", sans-serif;
+  font-size: 60px;
+  padding-right: 60px;
+  color: #1db2a3;
+  text-decoration: none;
+}
+.logoNav {
+  text-align: center;
+}
+.logoNav p {
+  color: #1799B5;
+}
+.logoNav a{
+  font-family: "Great Vibes", sans-serif;
+  font-size: 40px;
+  padding-right: 60px;
+  text-decoration: none;
+  color: #1799B5;
+}
+
+.btn {
+  color: rgb(125, 114, 81);
+
+    font-weight: 400;
+    /*line-height: 22px;*/
+    /* margin: 5px auto 3em; */
+    /* max-width: 114px; */
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* vertical-align: top; */
+    width: 151px;
+    font-size: smaller;
+    padding: 3.5px;
+
+}
+
+.number{
+  display: inline-block;
+  float: right;
+  padding: 20px 115px 4px 0;
+}
+
+/*-----------------------------------END NAV----------------------------------*/
+
+
+/*-----------------------------------REVIEWS----------------------------------*/
+
+.reviews {
+    border: 1.2px solid lightblue;
+    margin: 21px;
+    padding: 1px 16px 2px 25px;
+    margin-bottom: 96px;
+    line-height: 1.7;
+    width: 586px;
+    height: 550px;
+    overflow: scroll;
+    border-radius: 2px;
+}
+#title{
+  padding: 15px;
+
+}
+
+
+.reviews > #rev1 {
+  position: relative;
+  padding: 0 0 4vh 0;
+}
+.wall{
+ padding: 41px 16px 9px 13px;
+width: 83vw;
+}
+/*-----------------------------------END RREVIEWS-----------------------------*/
+
+.image{
+      padding-top: 23px;
+    box-shadow: 13px 19px 35px #888888;
+    margin-bottom: 46px;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+}
+
+
+/*-----------------------------------FOOTER-----------------------------------*/
+
+footer {
+     position: relative;
+    padding: 10px;
+    background-color: #f9f9f9;
+    width: 100vw;
+}
+footer #footer-social{
+  text-align: center;
+}
+
+footer p {
+  padding-bottom: 5px;
+}
+
+.footerContact {
+     margin: 1px;
+
+    padding: 8px;
+    text-align: center;
+}
+.footerContact p{
+  display: inline-block;
+  padding: 0px 0px 2px 43px;
+}
+
+.footerinfo {
+  margin: 0 auto;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer img {
+  height: 25px;
+  width: 25px;
+  background-color: rgba(30, 196, 184, 0.6);
+  border-radius: 50%;
+}
+
+footer h3 {
+  margin-bottom: 30px;
+}
+
+.footerSocialMedia.float {
+  position: relative;
+  width: 38vw;
+  right: 20vw;
+}
+
+
+/*--------------------------------END FOOTER----------------------------------*/
+
+
+/*to show our exp is dif than any bridal shop in the city w=and why you should choose us over everyone else
+
+exlusive
+features
+
+affordability
+should
+
+see why our brides love us*/
+
+/********************************** 1025PX *************************************************/
+  
+@media screen and (min-width: 1025px) {
+
+  .hamburger{
+    display: none;
+  }
+
+  nav {
+    width: 100%;
+    height: 104px;
+    border-bottom: solid 1px #998100;
+    position: fixed;
+    z-index: 50;
+    top: 0px;
+    background-color: white;
+    -webkit-box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.75);
+  }
+  nav ul {
+     width: 100%;
+      height: 0px;
+      display: block;
+    text-align: center;
+    margin-left: -25px;
+   
+  }
+  nav ul li {
+      display: inline-block;
+      text-align: center;
+      padding: -27px;
+      margin: 9.5px;
+      padding: initial;
+  }
+
+
+  nav ul li a {
+    color: #4ab2b2;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .clear {
+    clear: both;;
+  }
+  .float {
+      float: left;
+  }
+  nav {
+    width: 100%;
+    height: 108px;
+    border-bottom: solid 1px #998100;
+    position: fixed;
+    z-index: 50;
+    top: 0px;
+    background-color: white;
+    -webkit-box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.75);
+    padding-top: 10px;
+    font-family: 'Rajdhani', sans-serif;
+
+  }
+  nav ul {
+    width: 100%;
+    height: 0px;
+    padding-top: 9px;
+  }
+  nav ul li {
+      display: inline-block;
+      text-align: center;
+      padding: -27px;
+      margin: 6.5px;
+      padding: initial;
+  }
+  nav ul li a {
+    color: #4ab2b2;
+    text-decoration: none;
+    font-size: 17px;
+   }
+
+  .showAppointment {
+    display: none;
+  }
+  .stro{
+      overflow: hidden;
+      float: right;
+      margin-right: 71px;
+      padding: 5.5px;
+      text-align: center;
+
+      float: right;
+      position: relative;
+      font-size: large;
+      display: block;
+  }
+}
+
