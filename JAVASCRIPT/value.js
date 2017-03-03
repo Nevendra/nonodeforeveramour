@@ -937,7 +937,7 @@ angular.module('DesignerValue', [])
 			},
 			{
 				name: "Nicole Spose",
-				description: "Nicole Spose has collections that speak of a fresh and young fashion, that dictate trends, while maintaining quality and tailoring. Exclusively at our salon in New York City",
+				description: "Nicole Spose has collections that speak of a fresh and young fashion, that dictate trends, while maintaining quality and tailoring. Exclusively at our salon in New York City.",
 				featureOrExclusive: "exclusive",
 				mainImage: "Image/Collection_large/nicole-spose-NIAB17092.jpg",
 				link: "nicolespose.html",
@@ -1093,7 +1093,7 @@ angular.module('DesignerValue', [])
 
 			{
 				name: "Rosa Clará",
-				description: "Starting out in Barcelona and opening one of the world's most prestigious bridalwear shows - Barecelona Bridal Week, this brand soon spread throughout Spain and the rest of the world. Today it still offers innovative designs created from the highest quality fabrics.",
+				description: "Starting out in Barcelona and opening one of the world's most prestigious bridalwear shows - Barcelona Bridal Week, this brand will soon spread throughout Spain and the rest of the world. Today, it still offers innovative designs created from the highest quality fabrics.",
 				featureOrExclusive: "feature",
 				mainImage: "Image/Collection_large/RosaClaraKnot39.jpg",
 				link: "rosaClara.html",
@@ -1314,7 +1314,7 @@ angular.module('DesignerValue', [])
 			},
 			{
 				name: "Additional Designers",
-				description: " View more selection and designer dresses at our salon in New York City",
+				description: " View more selection and designer dresses at our salon in New York City.",
 				featureOrExclusive: "feature",
 				mainImage: "Image/Collection_large/AlfredAngeloCinderellaPlatinum.jpg",
 				link: "additionalDesigners.html",
@@ -1662,8 +1662,8 @@ angular.module('DesignerValue', [])
 				mainImage: "Image/Collection_large/HUPX9531.jpg",
 				link: "judeJowlison.html",
 				gallery: [
-										{
-						img: "Image/Collection_large/ABI8_2858.jpg",
+					{
+						img: "Image/Collection_large/ABI8_2858-low.jpg",
 						designerName: "",
 						style: [
 							{
@@ -1678,7 +1678,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
-						img: "Image/Collection_large/ABI8_2871.jpg",
+						img: "Image/Collection_large/ABI8_2871-low.jpg",
 						designerName: "",
 						style: [
 							{
@@ -1693,11 +1693,56 @@ angular.module('DesignerValue', [])
 						]
 					},					
 					{
-						img: "Image/Collection_large/ABI8_3149.jpg",
+						img: "Image/Collection_large/ABI8_2480-low.jpg",
 						designerName: "",
 						style: [
 							{
-								name: "mermaid"
+								name: "trumpet"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "not on sale"
+							},
+						]
+					},
+					{
+						img: "Image/Collection_large/ABI8_2784-low.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "trumpet"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "not on sale"
+							},
+						]
+					},
+					{
+						img: "Image/Collection_large/ABI8_2944-low.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "trumpet"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "not on sale"
+							},
+						]
+					},
+					{
+						img: "Image/Collection_large/HUPX9531-low.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "a-line"
 							},
 							{
 								name: "fit and flare"
@@ -1706,313 +1751,13 @@ angular.module('DesignerValue', [])
 								name: "on sale"
 							},
 						]
-					},
+					},				
 					{
-						img: "Image/Collection_large/ABI8_2671.jpg",
-						designerName: "",
-						style: [
-							{
-								name: "trumpet"
-							},
-							{
-								name: "sheath"
-							},
-							{
-								name: "not on sale"
-							},
-						]
-					},					
-					{
-						img: "Image/Collection_large/ABI8_2701.jpg",
+						img: "Image/Collection_large/judes-photo--229-low.jpg",
 						designerName: "",
 						style: [
 							{
 								name: "ball gown"
-							},
-							{
-								name: "sheath"
-							},
-							{
-								name: "not on sale"
-							},
-						]
-					},
-					{
-						img: "Image/Collection_large/ABI8_2784.jpg",
-						designerName: "",
-						style: [
-							{
-								name: "a-line"
-							},
-							{
-								name: "fit and flare"
-							},
-							{
-								name: "on sale"
-							},
-						]
-					},
-					{
-						img: "Image/Collection_large/ABI8_2896.jpg",
-						designerName: "",
-						style: [
-							{
-								name: "trumpet"
-							},
-							{
-								name: "sheath"
-							},
-							{
-								name: "not on sale"
-							},
-						]
-					},
-					{
-						img: "Image/Collection_large/ABI8_2944.jpg",
-						designerName: "",
-						style: [
-							{
-								name: "a-line"
-							},
-							{
-								name: "fit and flare"
-							},
-							{
-								name: "on sale"
-							},
-						]
-					},
-					{
-						img: "Image/Collection_large/ABI8_3060.jpg",
-						designerName: "",
-						style: [
-							{
-								name: "a-line"
-							},
-							{
-								name: "fit and flare"
-							},
-							{
-								name: "on sale"
-							},
-						]
-					},
-					{
-						img: "Image/Collection_large/ABI8_3050.jpg",
-						designerName: "",
-						style: [
-							{
-								name: "trumpet"
-							},
-							{
-								name: "sheath"
-							},
-							{
-								name: "not on sale"
-							},
-						]
-					},					
-					{
-						img: "Image/Collection_large/ABI8_2618.jpg",
-						designerName: "",
-						style: [
-							{
-								name: "mermaid"
-							},
-							{
-								name: "fit and flare"
-							},
-							{
-								name: "on sale"
-							},
-						]
-					},					
-					{
-						img: "Image/Collection_large/ABI8_2503.jpg",
-						designerName: "",
-						style: [
-							{
-								name: "ball gown"
-							},
-							{
-								name: "sheath"
-							},
-							{
-								name: "not on sale"
-							},
-						]
-					},
-					{
-						img: "Image/Collection_large/ABI8_2488.jpg",
-						designerName: "",
-						style: [
-							{
-								name: "a-line"
-							},
-							{
-								name: "fit and flare"
-							},
-							{
-								name: "on sale"
-							},
-						]
-					},
-					{
-						img: "Image/Collection_large/ABI8_2480.jpg",
-						designerName: "",
-						style: [
-							{
-								name: "trumpet"
-							},
-							{
-								name: "sheath"
-							},
-							{
-								name: "not on sale"
-							},
-						]
-					},
-					{
-						img: "Image/Collection_large/HUPX9531.jpg",
-						designerName: "",
-						style: [
-							{
-								name: "a-line"
-							},
-							{
-								name: "fit and flare"
-							},
-							{
-								name: "on sale"
-							},
-						]
-					},
-					{
-						img: "Image/Collection_large/HUPX9730.jpg",
-						designerName: "",
-						style: [
-							{
-								name: "trumpet"
-							},
-							{
-								name: "sheath"
-							},
-							{
-								name: "not on sale"
-							},
-						]
-					},
-					{
-						img: "Image/Collection_large/HUPX9455.jpg",
-						designerName: "",
-						style: [
-							{
-								name: "mermaid"
-							},
-							{
-								name: "fit and flare"
-							},
-							{
-								name: "on sale"
-							},
-						]
-					},
-					{
-						img: "Image/Collection_large/ZELDABACK.jpg",
-						designerName: "",
-						style: [
-							{
-								name: "ball gown"
-							},
-							{
-								name: "sheath"
-							},
-							{
-								name: "not on sale"
-							},
-						]
-					},
-					{
-						img: "Image/Collection_large/BETTE.jpg",
-						designerName: "",
-						style: [
-							{
-								name: "a-line"
-							},
-							{
-								name: "fit and flare"
-							},
-							{
-								name: "on sale"
-							},
-						]
-					},
-					{
-						img: "Image/Collection_large/BETTEBACK.jpg",
-						designerName: "",
-						style: [
-							{
-								name: "trumpet"
-							},
-							{
-								name: "sheath"
-							},
-							{
-								name: "not on sale"
-							},
-						]
-					},					
-					{
-						img: "Image/Collection_large/judes photo -215.jpg",
-						designerName: "",
-						style: [
-							{
-								name: "mermaid"
-							},
-							{
-								name: "fit and flare"
-							},
-							{
-								name: "on sale"
-							},
-						]
-					},					
-					{
-						img: "Image/Collection_large/judes photo -229.jpg",
-						designerName: "",
-						style: [
-							{
-								name: "ball gown"
-							},
-							{
-								name: "sheath"
-							},
-							{
-								name: "not on sale"
-							},
-						]
-					},
-					{
-						img: "Image/Collection_large/judes photo -252.jpg",
-						designerName: "",
-						style: [
-							{
-								name: "a-line"
-							},
-							{
-								name: "fit and flare"
-							},
-							{
-								name: "on sale"
-							},
-						]
-					},
-					{
-						img: "Image/Collection_large/SOPHIA.jpg",
-						designerName: "",
-						style: [
-							{
-								name: "trumpet"
 							},
 							{
 								name: "sheath"
