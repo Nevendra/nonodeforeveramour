@@ -79,6 +79,9 @@ nav ul li a {
 .hamburger img {
   height: 25px;
   width: 25px;
+  border: solid 1px #1799B5;
+  background-color: #1799B5;
+
 }
 nav {
   width: 100%;
@@ -412,6 +415,14 @@ footer img {
   width: 25px;
   background-color: rgba(30, 196, 184, 0.6);
   border-radius: 50%;
+}
+
+@media screen and (min-width: 504px){
+  .hamburger img {
+    border: none;
+    background-color: white;
+
+  }
 }
 /********************************** 750PX *************************************************/
   

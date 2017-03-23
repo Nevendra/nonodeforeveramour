@@ -78,8 +78,6 @@ angular.module('DesignerService', ['DesignerValue'])
 		for(var i = 0; i < self.galleryArray.length; i++){
 			self.galleryImages = self.galleryArray[i];
 				if(self.galleryImages.img === self.currentImage){
-					console.log(self.currentImage);
-					console.log(i);
 					var thisNum = i;
 					if(trueOrFalse === true){
 						if(thisNum === 0){
@@ -88,7 +86,6 @@ angular.module('DesignerService', ['DesignerValue'])
 							thisNum = thisNum - 1;
 						}
 					
-						console.log(thisNum);
 						self.galleryNewImage = self.galleryArray[thisNum].img;
 					} else if (trueOrFalse === false){
 						if(thisNum === self.galleryArray.length - 1){
@@ -96,12 +93,10 @@ angular.module('DesignerService', ['DesignerValue'])
 						} else {
 							thisNum = thisNum + 1;
 						}
-						console.log(thisNum);
 						self.galleryNewImage = self.galleryArray[thisNum].img;
 					}
 				}
 		}
-		console.log(self.galleryNewImage);
 		return self.galleryNewImage;
 	}
 

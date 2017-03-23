@@ -359,6 +359,123 @@ angular.module('DesignerValue', [])
 				]
 			},
 			{
+				name: "Lillian West",
+				description: "Lillian West enters the bridal fashion scene with the launch of its Preview 2014 collection. The collection features classic lines of rich satins, re-embroidered fine laces and soft romantic fabrics. Each wedding dress features stunning details that create exclusive works of art. The collection features plunging gowns with low backs, sexy slits, chic one shoulder neckline and beautiful classic lace silhouettes.",
+				featureOrExclusive: "feature",
+				mainImage: "Image/Collection_large/lillianWest_IMG_0686.JPG",
+				link: "lillianWest.html",
+				gallery: [
+					{
+						img: "Image/Collection_large/lillianWest_IMG_0686.JPG",
+						designerName: "",
+						style: [
+							{
+								name: "mermaid"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},		
+					{
+						img: "Image/Collection_large/lillianWest_IMG_0935.png",
+						designerName: "",
+						style: [
+							{
+								name: "mermaid"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},		
+					{
+						img: "Image/Collection_large/lillianWest_IMG_0936.png",
+						designerName: "",
+						style: [
+							{
+								name: "ball gown"
+							},
+							{
+								name: "fit and flare"
+							},
+							{
+								name: "not on sale"
+							},
+						]
+					},
+					{
+						img: "Image/Collection_large/lillianWest_IMG_0937.png",
+						designerName: "",
+						style: [
+							{
+								name: "a-line"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},					
+					{
+						img: "Image/Collection_large/lillianWest_IMG_0938.png",
+						designerName: "",
+						style: [
+							{
+								name: "trumpet"
+							},
+							{
+								name: "fit and flare"
+							},
+							{
+								name: "not on sale"
+							},
+						]
+					},
+					{
+						img: "Image/Collection_large/lillianWest_IMG_0939.png",
+						designerName: "",
+						style: [
+							{
+								name: "mermaid"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},
+					{
+						img: "Image/Collection_large/lillianWest_IMG_0940.png",
+						designerName: "",
+						style: [
+							{
+								name: "ball gown"
+							},
+							{
+								name: "fit and flare"
+							},
+							{
+								name: "not on sale"
+							},
+						]
+					},
+	
+				]
+
+
+			},
+			{
 				name: "Eddy K",
 				description: "Designed in Milan, the fashion capital of the world, and manufactured with the highest quality fabrics. Sophisticated couture gowns and elegant destination dresses are made with the highest attention to detail that flatters every figure, taste, and occasion.",
 				featureOrExclusive: "feature",

@@ -49,5 +49,16 @@ $(document).ready(function(){
 
 $(window).resize(windowSize);
 
+
+$('.closeEvent').click(function(){
+	$('.events').css('display', 'none');
+})
+
+var showEvents = function(){
+	setTimeout(function(){
+		$('.events').fadeIn(1000);
+	}, 2000);
+}
+showEvents();
 	
 });

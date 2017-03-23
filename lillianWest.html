@@ -1,20 +1,13 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
-"http://www.w3.org/TR/html4/strict.dtd">
-
-<html lang="en">
-
 <head>
+	<title></title>
 
-    <title>Gown Collection | Forever Amour Bridal Boutique</title>
 
 	<meta name="charset" content="utf-8">
 	<meta http-equiv="content-Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
 
-	<meta name="description" content="Large selection of designer wedding gowns at beautiful prices, as well as veils and belts to match. Justin Alexander, Rosa Clara, Symphony, Jude Jowilson and more.">
-	<meta name="keywords" content="collection, gallery, justin alexander, sposa, rosa clara, jude, jowilson, symphony">
-
-	<link rel="icon" type="image/ico" href="Images/BridalFavicon.ico">
+	<link rel="icon" type="image/ico" href="../Images/BridalFavicon.ico">
 
 	<link rel="stylesheet" type="text/css" href="CSS/font-awesome.css">
 
@@ -22,49 +15,49 @@
 
 	<link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
-
-
-    <script type="text/javascript" src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-
+	<script type="text/javascript" src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script>
 	<script type="text/javascript" src="JAVASCRIPT/value.js"></script>
 	<script type="text/javascript" src="JAVASCRIPT/service.js"></script>
     <script rel="stylesheet" type="text/javascript" src="JAVASCRIPT/collectionAngularImageGallery.js"></script>
 	<script src="JAVASCRIPT/jquery.js" type="text/javascript" charset="utf-8"></script>
-	<script src="JAVASCRIPT/newCollectionjs.js" type="text/javascript" charset="utf-8"></script>
-	<!--Google Analytics account: Forever Amour
-	Use it to track website stats. Tracking ID: UA-86456732-1
-	-->
+	<script src="JAVASCRIPT/designerjs.js" type="text/javascript" charset="utf-8"></script>
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
 		ga('create', 'UA-86456732-1', 'auto');
 		ga('send', 'pageview');
 	</script>
 
-<link href="CSS/newCollectioncss.css" rel="stylesheet" type="text/css">
-
+	<link href="CSS/designer.css" rel="stylesheet" type="text/css">
 </head>
+<body ng-app="CollectionImageGallery" ng-controller="CollectionImageGalleryController as ctrl">
+	<div class="additionalNav">
+		<p class=" closeAdditionalNav">X</p>
+		<ul>
+			<li><a href="eddiek.html">Eddie K</a></li>
+			<li><a href="aboutJudeJowilson.html">Jude Jowilson</a></li>
+			<li><a href="justinAlexander.html">Justin Alexander</a></li>
+			<li><a href="nicolespose.html">Nicole Spose</a></li>
+			<li><a href="rosaClara.html">Rosa Clara</a></li>
+			<li><a href="venus.html">Venus</a></li>
+			<li><a href="lillianWest.html">Lillian West</a></li>
+			<li><a href="additionalDesigners.html">Additional Designer</a></li>
 
-<body ng-app="CollectionImageGallery">
-
+		</ul>
+	</div>
 <!-- _______________________________Header__________________________________ -->
-<div class="events">
-    <div class="closeEvent">X</div>
-</div>
+
 <nav class="stroke">
   <div class="logoNav">
     <p><a href="index.html">Forever Amour Bridal Boutique</a></p>
   </div>
-   <div class="hamburger">
-  	<img src="Image/hamburgerMenuIcon.png">
-  </div>
+     <div class="hamburger">
+	  	<img src="Image/hamburgerMenuIcon.png">
+	  </div>
     <ul class="float">
           <li><a href="about.html" class="currentPage btn btn-4">About</a></li>
           <li><a href="collection.html" class="currentPage btn btn-4">Our Collection</a></li>
@@ -79,64 +72,44 @@
 </nav>
 
 <!-- _______________________________END Header__________________________________ -->
-
-	<div ng-controller="CollectionImageGalleryController as ctrl">
-
-
-		<div class="mainContainer">
-			<div class="titleHeading">
-				<p>Our dress collection includes designers that you will not find anywhere else in NYC; they are exclusive to our salon. You will also find an exquiste custom collection by Jude Jowilson and featured designers that are attainably priced. For brides with a limited lead time we offer "one-of" dresses that you can try and buy immediately.
-
-				</p>
+	<div>
+		<div class="mainContent">
+			<div class="additionalDesigner">
+				<p>Additional Designers<span>               </span><span><i class="fa fa-bars" aria-hidden="true"></i></span></p>
 			</div>
-
-			<div class="exclusiveContainer">
-
-				<div class="info coral" ng-click="ctrl.clickedExclusiveOrFeature(ctrl.exclusive)">
-					<p>Exclusive/Custom </p>
+			<div class="designerAbout" ng-if="ctrl.mainHtml == true">
+				<div ng-repeat=" designer in ctrl.LillianWest[0]">
+					<h1 ng-bind="designer.name"></h1>
+					<p ng-bind="designer.description"></p>
+					<img src="{{designer.mainImage}}">
 				</div>
-
-
-				<div class="designersWrapper exclusive" ng-if="ctrl.viewExclusive == false">
-
-						<ul class="designerSliderContainer">
-							<li class="designerSlides" ng-repeat="designer in ctrl.exclusiveDesignerList">
-
-								<div>
-									<p ng-bind="designer.name"></p>
-								</div>
-								<a ng-href="{{designer.link}}"><img src="{{designer.mainImage}}"></a>
-							</li>
-						</ul>
-						<div class="clear"></div>
-				</div>
-
 			</div>
-
-
-			<div class="featuredContainer">
-				<div class="info" ng-click="ctrl.clickedExclusiveOrFeature(ctrl.feature)">
-					<p>Featured</p>
+			<div class="designerGallery" ng-if="ctrl.mainHtml == true">
+				<div class="galleryBox inline" ng-repeat=" gallery in ctrl.LillianWestPaginate">
+					<img class="clickedImage" ng-click="ctrl.viewLargeImage(gallery.img, ctrl.LillianWestPaginate, $index)" src="{{gallery.img}}">
+					<p ng-bind="gallery.designerName"></p>
 				</div>
-				<div class="designersWrapper feature" ng-if="ctrl.viewFeature == false">
-
-						<ul class="designerSliderContainer">
-							<li class="designerSlides" ng-repeat="designer in ctrl.featureDesignerList" >
-								<div ng-class="[designer.text]" >
-									<p ng-bind="designer.name"></p>
-								</div>
-								<a ng-href="{{designer.link}}"><img src="{{designer.mainImage}}"></a>
-							</li>
-						</ul>
-						<div class="clear"></div>
+				<div class="pageButtonDiv">
+					<p class="previousMain" ng-click="ctrl.prevPage(ctrl.LillianWest[1], ctrl.current_page)">&laquo;</p>
+			
+					<p class="nextMain" ng-click="ctrl.nextPage(ctrl.LillianWest[1], ctrl.current_page)">&raquo;</p>
 				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
 
-		</div><!-- end mainContainer -->
-		<div class="clear"></div>
+		</div>
 
-
-
-	</div><!-- end controller -->
+		<div class="selectedImage" ng-if="ctrl.clickedThumbNail == true">
+			<div class="selectedImageContent">
+				<p class="previous" ng-click="ctrl.prevImage(ctrl.LillianWest[1])">&laquo;</p>
+				<img class-"theSelectedImage" src="{{ctrl.selectedImage}}">
+				<p class="next" ng-click="ctrl.nextImage(ctrl.LillianWest[1])">&raquo;</p>
+				<P class="close" ng-click="ctrl.closeDesignerImageGallerySelectedImage()">X</P>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
 
 
 <footer>
@@ -187,5 +160,4 @@
   </div>
 </footer>
 </body>
-
 </html>
