@@ -12,6 +12,7 @@ angular.module('DesignerValue', [])
 				link: "aboutJudeJowilson.html",
 				gallery: [
 					{
+						thumbnail: "Image/Collection_Small/HUPX9531_thumbnail.jpg",
 						img: "Image/Collection_large/HUPX9531.jpg",
 						designerName: "",
 						style: [
@@ -27,6 +28,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/HUPX9730_thumbnail.jpg",
 						img: "Image/Collection_large/HUPX9730.jpg",
 						designerName: "",
 						style: [
@@ -42,6 +44,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/HUPX9455_thumbnail.jpg",
 						img: "Image/Collection_large/HUPX9455.jpg",
 						designerName: "",
 						style: [
@@ -57,6 +60,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/ZELDABACK_thumbnail.jpg",
 						img: "Image/Collection_large/ZELDABACK.jpg",
 						designerName: "",
 						style: [
@@ -72,6 +76,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/BETTE_thumbnail.jpg",
 						img: "Image/Collection_large/BETTE.jpg",
 						designerName: "",
 						style: [
@@ -87,6 +92,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/BETTEBACK_thumbnail.jpg",
 						img: "Image/Collection_large/BETTEBACK.jpg",
 						designerName: "",
 						style: [
@@ -102,6 +108,7 @@ angular.module('DesignerValue', [])
 						]
 					},					
 					{
+						thumbnail: "Image/Collection_Small/judes photo -215_thumbnail.jpg",
 						img: "Image/Collection_large/judes photo -215.jpg",
 						designerName: "",
 						style: [
@@ -117,6 +124,7 @@ angular.module('DesignerValue', [])
 						]
 					},					
 					{
+						thumbnail: "Image/Collection_Small/judes photo -229_thumbnail.jpg",
 						img: "Image/Collection_large/judes photo -229.jpg",
 						designerName: "",
 						style: [
@@ -132,6 +140,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/judes photo -252_thumbnail.jpg",
 						img: "Image/Collection_large/judes photo -252.jpg",
 						designerName: "",
 						style: [
@@ -147,6 +156,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/SOPHIA_thumbnail.jpg",
 						img: "Image/Collection_large/SOPHIA.jpg",
 						designerName: "",
 						style: [
@@ -162,6 +172,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/ZELDA_thumbnail.jpg",
 						img: "Image/Collection_large/ZELDA.jpg",
 						designerName: "",
 						style: [
@@ -177,6 +188,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/look4back_thumbnail.jpg",
 						img: "Image/Collection_large/look4back.jpg",
 						designerName: "",
 						style: [
@@ -192,6 +204,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/IMG_26581judej_thumbnail.jpg",
 						img: "Image/Collection_large/IMG_26581judej.jpg",
 						designerName: "",
 						style: [
@@ -207,6 +220,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/IMG_41331judej_thumbnail.jpg",
 						img: "Image/Collection_large/IMG_41331judej.jpg",
 						designerName: "",
 						style: [
@@ -222,6 +236,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/IMG_0267judej_thumbnail.JPG",
 						img: "Image/Collection_large/IMG_0267judej.JPG",
 						designerName: "",
 						style: [
@@ -237,6 +252,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/ELIZABETH_edited_thumbnail.jpg",
 						img: "Image/Collection_large/ELIZABETH_edited.jpg",
 						designerName: "",
 						style: [
@@ -252,6 +268,7 @@ angular.module('DesignerValue', [])
 						]
 					},					
 					{
+						thumbnail: "Image/Collection_Small/ELIZABETHback_edited_thumbnail.jpg",
 						img: "Image/Collection_large/ELIZABETHback_edited.jpg",
 						designerName: "",
 						style: [
@@ -267,6 +284,7 @@ angular.module('DesignerValue', [])
 						]
 					},					
 					{
+						thumbnail: "Image/Collection_Small/FLORENCE_edited_thumbnail.jpg",
 						img: "Image/Collection_large/FLORENCE_edited.jpg",
 						designerName: "",
 						style: [
@@ -282,6 +300,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/FLORENCEback_edited_thumbnail.jpg",
 						img: "Image/Collection_large/FLORENCEback_edited.jpg",
 						designerName: "",
 						style: [
@@ -297,6 +316,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/FLORENCEchantillylacedetail_edited_thumbnail.jpg",
 						img: "Image/Collection_large/FLORENCEchantillylacedetail_edited.jpg",
 						designerName: "",
 						style: [
@@ -312,6 +332,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/GRACE_edited_thumbnail.jpg",
 						img: "Image/Collection_large/GRACE_edited.jpg",
 						designerName: "",
 						style: [
@@ -327,6 +348,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/GRACEback_edited_thumbnail.jpg",
 						img: "Image/Collection_large/GRACEback_edited.jpg",
 						designerName: "",
 						style: [
@@ -342,6 +364,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/GRETAback_edited_thumbnail.jpg",
 						img: "Image/Collection_large/GRETAback_edited.jpg",
 						designerName: "",
 						style: [
@@ -366,6 +389,7 @@ angular.module('DesignerValue', [])
 				link: "lillianWest.html",
 				gallery: [
 					{
+						thumbnail: "Image/Collection_Small/lillianWest_IMG_0686_thumbnail.jpg",
 						img: "Image/Collection_large/lillianWest_IMG_0686.JPG",
 						designerName: "",
 						style: [
@@ -381,6 +405,7 @@ angular.module('DesignerValue', [])
 						]
 					},		
 					{
+						thumbnail: "Image/Collection_Small/lillianwest_img_0935_thumbnail.jpg",
 						img: "Image/Collection_large/lillianWest_IMG_0935.png",
 						designerName: "",
 						style: [
@@ -396,6 +421,7 @@ angular.module('DesignerValue', [])
 						]
 					},		
 					{
+						thumbnail: "Image/Collection_Small/lillianwest_img_0936_thumbnail.jpg",
 						img: "Image/Collection_large/lillianWest_IMG_0936.png",
 						designerName: "",
 						style: [
@@ -411,6 +437,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/lillianwest_img_0937_thumbnail.jpg",
 						img: "Image/Collection_large/lillianWest_IMG_0937.png",
 						designerName: "",
 						style: [
@@ -426,7 +453,8 @@ angular.module('DesignerValue', [])
 						]
 					},					
 					{
-						img: "Image/Collection_large/lillianWest_IMG_0938.png",
+						thumbnail: "Image/Collection_Small/lillianwest_img_0938_thumbnail.jpg",
+						img: "Image/Collection_large/lillianWest_img_0938.png",
 						designerName: "",
 						style: [
 							{
@@ -441,6 +469,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/lillianwest_img_0939_thumbnail.jpg",
 						img: "Image/Collection_large/lillianWest_IMG_0939.png",
 						designerName: "",
 						style: [
@@ -456,6 +485,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/lillianwest_img_0940_thumbnail.jpg",
 						img: "Image/Collection_large/lillianWest_IMG_0940.png",
 						designerName: "",
 						style: [
@@ -483,6 +513,7 @@ angular.module('DesignerValue', [])
 				link: "eddiek.html",
 				gallery: [
 					{
+						thumbnail: "Image/Collection_Small/AK160_full_thumbnail.jpg",
 						img: "Image/Collection_large/AK160_full.jpg",
 						designerName: "",
 						style: [
@@ -498,6 +529,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/AK181_full_thumbnail.jpg",
 						img: "Image/Collection_large/AK181_full.jpg",
 						designerName: "",
 						style: [
@@ -513,6 +545,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/EddyK_1_thumbnail.jpg",
 						img: "Image/Collection_large/EddyK_1.jpg",
 						designerName: "",
 						style: [
@@ -528,6 +561,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/EddyK_2_thumbnail.jpg",
 						img: "Image/Collection_large/EddyK_2.jpg",
 						designerName: "",
 						style: [
@@ -543,6 +577,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small//EddyK_3-cropped_thumbnail.jpg",
 						img: "Image/Collection_large/EddyK_3-cropped.jpg",
 						designerName: "",
 						style: [
@@ -558,6 +593,7 @@ angular.module('DesignerValue', [])
 						]
 					},					
 					{
+						thumbnail: "Image/Collection_Small/EddyK_4-cropped_thumbnail.png",
 						img: "Image/Collection_large/EddyK_4-cropped.png",
 						designerName: "",
 						style: [
@@ -573,6 +609,7 @@ angular.module('DesignerValue', [])
 						]
 					},					
 					{
+						thumbnail: "Image/Collection_Small/EK1084_back2_thumbnail.jpg",
 						img: "Image/Collection_large/EK1084_back2.jpg",
 						designerName: "",
 						style: [
@@ -588,6 +625,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/EK1084_full-1_thumbnail.jpg",
 						img: "Image/Collection_large/EK1084_full-1.jpg",
 						designerName: "",
 						style: [
@@ -603,6 +641,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/EK1088_full-e1464107889952_thumbnail.jpg",
 						img: "Image/Collection_large/EK1088_full-e1464107889952.jpg",
 						designerName: "",
 						style: [
@@ -628,6 +667,7 @@ angular.module('DesignerValue', [])
 				link: "justinAlexander.html",
 				gallery: [
 					{
+						thumbnail: "Image/Collection_Small/JustinAlexander_3_thumbnail.png",
 						img: "Image/Collection_large/JustinAlexander_3.png",
 						designerName: "",
 						style: [
@@ -643,6 +683,7 @@ angular.module('DesignerValue', [])
 						]
 					},		
 					{
+						thumbnail: "Image/Collection_Small/JustinAlexanderKnot23_thumbnail.jpg",
 						img: "Image/Collection_large/JustinAlexanderKnot23.jpg",
 						designerName: "",
 						style: [
@@ -658,6 +699,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/JustinAlexanderKnot24_thumbnail.jpg",
 						img: "Image/Collection_large/JustinAlexanderKnot24.jpg",
 						designerName: "",
 						style: [
@@ -673,6 +715,7 @@ angular.module('DesignerValue', [])
 						]
 					},					
 					{
+						thumbnail: "Image/Collection_Small/JustinAlexanderKnot25_thumbnail.jpg",
 						img: "Image/Collection_large/JustinAlexanderKnot25.jpg",
 						designerName: "",
 						style: [
@@ -688,6 +731,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/JustinAlexanderKnot26_thumbnail.jpg",
 						img: "Image/Collection_large/JustinAlexanderKnot26.jpg",
 						designerName: "",
 						style: [
@@ -703,6 +747,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/justinalexanderknot27_thumbnai.png",
 						img: "Image/Collection_large/JustinAlexanderKnot27.jpg",
 						designerName: "",
 						style: [
@@ -718,6 +763,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/JustinAlexanderKnot28_thumbnail.jpg",
 						img: "Image/Collection_large/JustinAlexanderKnot28.jpg",
 						designerName: "",
 						style: [
@@ -734,6 +780,7 @@ angular.module('DesignerValue', [])
 					},
 
 					{
+						thumbnail: "Image/Collection_Small/JustinAlex4_thumbnail.png",
 						img: "Image/Collection_large/JustinAlex4.png",
 						designerName: "",
 						style: [
@@ -749,6 +796,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/JA style 8846_thumbnail.jpg",
 						img: "Image/Collection_large/JA style 8846.jpg",
 						designerName: "",
 						style: [
@@ -764,6 +812,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/JustinAlex3_thumbnail.jpeg",
 						img: "Image/Collection_large/JustinAlex3.jpeg",
 						designerName: "",
 						style: [
@@ -779,6 +828,7 @@ angular.module('DesignerValue', [])
 						]
 					},			
 					{
+						thumbnail: "Image/Collection_Small/JustinAlexanderKnot14_thumbnail.jpg",
 						img: "Image/Collection_large/JustinAlexanderKnot14.jpg",
 						designerName: "",
 						style: [
@@ -794,6 +844,7 @@ angular.module('DesignerValue', [])
 						]
 					},					
 					{
+						thumbnail: "Image/Collection_Small/JustinAlexanderKnot15_thumbnail.jpg",
 						img: "Image/Collection_large/JustinAlexanderKnot15.jpg",
 						designerName: "",
 						style: [
@@ -809,6 +860,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/JustinAlexanderKnot16_thumbnail.jpg",
 						img: "Image/Collection_large/JustinAlexanderKnot16.jpg",
 						designerName: "",
 						style: [
@@ -824,6 +876,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/JustinAlexanderKnot17_thumbnail.jpg",
 						img: "Image/Collection_large/JustinAlexanderKnot17.jpg",
 						designerName: "",
 						style: [
@@ -839,6 +892,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/JustinAlexanderKnot18_thumbnail.jpg",
 						img: "Image/Collection_large/JustinAlexanderKnot18.jpg",
 						designerName: "",
 						style: [
@@ -854,6 +908,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/JustinAlexanderKnot19_thumbnail.jpg",
 						img: "Image/Collection_large/JustinAlexanderKnot19.jpg",
 						designerName: "",
 						style: [
@@ -869,6 +924,7 @@ angular.module('DesignerValue', [])
 						]
 					},					
 					{
+						thumbnail: "Image/Collection_Small/JustinAlexanderKnot20_thumbnail.jpg",
 						img: "Image/Collection_large/JustinAlexanderKnot20.jpg",
 						designerName: "",
 						style: [
@@ -884,6 +940,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/JustinAlexanderKnot21_thumbnail.jpg",
 						img: "Image/Collection_large/JustinAlexanderKnot21.jpg",
 						designerName: "",
 						style: [
@@ -899,6 +956,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/JustinAlexanderKnot22_thumbnail.jpg",
 						img: "Image/Collection_large/JustinAlexanderKnot22.jpg",
 						designerName: "",
 						style: [
@@ -914,6 +972,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/JA style 8840_thumbnail.jpg",
 						img: "Image/Collection_large/JA style 8840.jpg",
 						designerName: "",
 						style: [
@@ -929,6 +988,7 @@ angular.module('DesignerValue', [])
 						]
 					},					
 					{
+						thumbnail: "Image/Collection_Small/JA style 8830_thumbnail.jpg",
 						img: "Image/Collection_large/JA style 8830.jpg",
 						designerName: "",
 						style: [
@@ -944,6 +1004,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/6440_bod_thumbnail.jpg",
 						img: "Image/Collection_large/6440_bod.JPG",
 						designerName: "",
 						style: [
@@ -959,6 +1020,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/6441_sk_thumbnail.JPG",
 						img: "Image/Collection_large/6441_sk.JPG",
 						designerName: "",
 						style: [
@@ -974,6 +1036,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/JA_6425_thumbnail.JPG",
 						img: "Image/Collection_large/JA_6425.JPG",
 						designerName: "",
 						style: [
@@ -989,6 +1052,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/JA_8857_thumbnail.JPG",
 						img: "Image/Collection_large/JA_8857.JPG",
 						designerName: "",
 						style: [
@@ -1004,6 +1068,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/JA_8872_thumbnail.JPG",
 						img: "Image/Collection_large/JA_8872.JPG",
 						designerName: "",
 						style: [
@@ -1019,6 +1084,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/JA_8891_thumbnail.JPG",
 						img: "Image/Collection_large/JA_8891.JPG",
 						designerName: "",
 						style: [
@@ -1034,6 +1100,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/8880_thumbnail.JPG",
 						img: "Image/Collection_large/8880.JPG",
 						designerName: "",
 						style: [
@@ -1060,6 +1127,7 @@ angular.module('DesignerValue', [])
 				link: "nicolespose.html",
 				gallery: [
 					{
+						thumbnail: "Image/Collection_Small/nicole-spose-NIAB17092-Nicole-moda-sposa-2017-616_thumbnail.jpg",
 						img: "Image/Collection_large/nicole-spose-NIAB17092.jpg",
 						designerName: "",
 						style: [
@@ -1075,6 +1143,39 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/Nicole-Spose-2017-Wedding-Dress-4._thumbnail.jpg",
+						img: "Image/Collection_large/Nicole-Spose-2017-Wedding-Dress-4.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "ball gown"
+							},
+							{
+								name: "fit and flare"
+							},
+							{
+								name: "not on sale"
+							},
+						]
+					},
+					{
+						thumbnail: "Image/Collection_Small/Nicole-Spose-2017-Wedding-Dress-4_back_thumbnail.jpg",
+						img: "Image/Collection_large/Nicole-Spose-2017-Wedding-Dress-4_back.png",
+						designerName: "",
+						style: [
+							{
+								name: "a-line"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},
+					{
+						thumbnail: "Image/Collection_Small/nicole-spose-NIAB17052-Nicole-moda-sposa-2017-686_thumbnail.jpg",
 						img: "Image/Collection_large/nicole-spose-NIAB17052.jpg",
 						designerName: "",
 						style: [
@@ -1090,6 +1191,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/nicole-spose-NIAB17064-Nicole-moda-sposa-2017-100_thumbnail.jpg",
 						img: "Image/Collection_large/nicole-spose-NIAB17064.jpg",
 						designerName: "",
 						style: [
@@ -1105,6 +1207,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/nicole-spose-NIAB17080-Nicole-moda-sposa-2017-128_thumbnail.jpg",
 						img: "Image/Collection_large/nicole-spose-NIAB17080-Nicole-moda-sposa-2017-128.jpg",
 						designerName: "",
 						style: [
@@ -1120,6 +1223,7 @@ angular.module('DesignerValue', [])
 						]
 					},					
 					{
+						thumbnail: "Image/Collection_Small/nicole-spose-NIAB17134-Nicole-moda-sposa-2017-264_thumbnail.jpg",
 						img: "Image/Collection_large/nicole-spose-NIAB17134-Nicole-moda-sposa-2017-264.jpg",
 						designerName: "",
 						style: [
@@ -1144,6 +1248,7 @@ angular.module('DesignerValue', [])
 				link: "venus.html",
 				gallery: [
 					{
+						thumbnail: "Image/Collection_Small/Venus_1_thumbnail.jpg",
 						img: "Image/Collection_large/Venus_1.jpg",
 						designerName: "",
 						style: [
@@ -1159,6 +1264,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/Venus_2_thumbnail.jpg",
 						img: "Image/Collection_large/Venus_2.jpg",
 						designerName: "",
 						style: [
@@ -1174,6 +1280,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/Venus_3_thumbnail.jpg",
 						img: "Image/Collection_large/Venus_3.jpg",
 						designerName: "",
 						style: [
@@ -1189,6 +1296,7 @@ angular.module('DesignerValue', [])
 						]
 					},					
 					{
+						thumbnail: "Image/Collection_Small/Venus_4_thumbnail.jpg",
 						img: "Image/Collection_large/Venus_4.jpg",
 						designerName: "",
 						style: [
@@ -1216,6 +1324,7 @@ angular.module('DesignerValue', [])
 				link: "rosaClara.html",
 				gallery: [
 					{
+						thumbnail: "Image/Collection_Small/RosaClaraKnot39_thumbnail.jpg",
 						img: "Image/Collection_large/RosaClaraKnot39.jpg",
 						designerName: "",
 						style: [
@@ -1231,6 +1340,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/RosaClaraKnot40_thumbnail.jpg",
 						img: "Image/Collection_large/RosaClaraKnot40.jpg",
 						designerName: "",
 						style: [
@@ -1246,6 +1356,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/RosaClaraKnot29_thumbnail.jpg",
 						img: "Image/Collection_large/RosaClaraKnot29.jpg",
 						designerName: "",
 						style: [
@@ -1261,6 +1372,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/RosaClaraKnot30_thumbnail.jpg",
 						img: "Image/Collection_large/RosaClaraKnot30.jpg",
 						designerName: "",
 						style: [
@@ -1276,6 +1388,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/RosaClaraKnot31_thumbnail.jpg",
 						img: "Image/Collection_large/RosaClaraKnot31.jpg",
 						designerName: "",
 						style: [
@@ -1291,6 +1404,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/RosaClaraKnot32_thumbnail.jpg",
 						img: "Image/Collection_large/RosaClaraKnot32.jpg",
 						designerName: "",
 						style: [
@@ -1306,6 +1420,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/RosaClaraKnot33_thumbnail.jpg",
 						img: "Image/Collection_large/RosaClaraKnot33.jpg",
 						designerName: "",
 						style: [
@@ -1321,6 +1436,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/RosaClaraKnot34_thumbnail.jpg",
 						img: "Image/Collection_large/RosaClaraKnot34.jpg",
 						designerName: "",
 						style: [
@@ -1336,6 +1452,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/RosaClaraKnot35_thumbnail.jpg",
 						img: "Image/Collection_large/RosaClaraKnot35.jpg",
 						designerName: "",
 						style: [
@@ -1351,6 +1468,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/RosaClaraKnot36_thumbnail.jpg",
 						img: "Image/Collection_large/RosaClaraKnot36.jpg",
 						designerName: "",
 						style: [
@@ -1366,6 +1484,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/RosaClaraKnot37_thumbnail.jpg",
 						img: "Image/Collection_large/RosaClaraKnot37.jpg",
 						designerName: "",
 						style: [
@@ -1381,6 +1500,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/RosaClaraKnot38_thumbnail.jpg",
 						img: "Image/Collection_large/RosaClaraKnot38.jpg",
 						designerName: "",
 						style: [
@@ -1396,6 +1516,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/RosaClaraKnot41_thumbnail.jpg",
 						img: "Image/Collection_large/RosaClaraKnot41.jpg",
 						designerName: "",
 						style: [
@@ -1411,6 +1532,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/RosaClaraKnot42_thumbnail.jpg",
 						img: "Image/Collection_large/RosaClaraKnot42.jpg",
 						designerName: "",
 						style: [
@@ -1437,6 +1559,7 @@ angular.module('DesignerValue', [])
 				link: "additionalDesigners.html",
 				gallery: [
 					{
+						thumbnail: "Image/Collection_Small/AlfredAngeloCinderellaPlatinum_thumbnail.jpg",
 						img: "Image/Collection_large/AlfredAngeloCinderellaPlatinum.jpg",
 						designerName: "Alfred Angelo",
 						style: [
@@ -1452,6 +1575,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/glry-img2_thumbnail.jpg",
 						img: "Image/Collection_large/glry-img2.jpg",
 						designerName: "La Sposa Felicidad",
 						style: [
@@ -1467,6 +1591,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/San Patrick Atila_thumbnail.jpg",
 						img: "Image/Collection_large/San Patrick Atila.jpg",
 						designerName: "San Patrick Atila",
 						style: [
@@ -1482,6 +1607,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/mikaella 1656_2_thumbnail.jpg",
 						img: "Image/Collection_large/mikaella 1656_2.jpg",
 						designerName: "Mikaella",
 						style: [
@@ -1497,6 +1623,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/White One Jaleb_thumbnail.jpg",
 						img: "Image/Collection_large/White One Jaleb.jpg",
 						designerName: "Jasmine",
 						style: [
@@ -1512,6 +1639,7 @@ angular.module('DesignerValue', [])
 						]
 					},					
 					{
+						thumbnail: "Image/Collection_Small/Eden Bridal 5105_thumbnail.jpg",
 						img: "Image/Collection_large/Eden Bridal 5105.jpg",
 						designerName: "Eden Bridal",
 						style: [
@@ -1527,6 +1655,7 @@ angular.module('DesignerValue', [])
 						]
 					},					
 					{
+						thumbnail: "Image/Collection_Small/casablanca bridal 2030_thumbnail.jpg",
 						img: "Image/Collection_large/casablanca bridal 2030.jpg",
 						designerName: "Casablanca Bridal",
 						style: [
@@ -1542,6 +1671,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/AC1_thumbnail.jpg",
 						img: "Image/Collection_large/AC1.jpg",
 						designerName: "Atlas Casablanca",
 						style: [
@@ -1557,6 +1687,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/Alfred Angelo 854_thumbnail.jpg",
 						img: "Image/Collection_large/Alfred Angelo 854.jpg",
 						designerName: "Alfred Angelo",
 						style: [
@@ -1572,6 +1703,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/AlfredAngelo2119_thumbnail.jpg",
 						img: "Image/Collection_large/AlfredAngelo2119.jpg",
 						designerName: "Alfred Angelo",
 						style: [
@@ -1587,6 +1719,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 										{
+						thumbnail: "Image/Collection_Small/Mon Cheri 111204_thumbnail.jpg",
 						img: "Image/Collection_large/Mon Cheri 111204.jpg",
 						designerName: "Mon Cheri",
 						style: [
@@ -1602,6 +1735,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/Mon Cheri 19226W_thumbnail.jpg",
 						img: "Image/Collection_large/Mon Cheri 19226W.jpg",
 						designerName: "Mon Cheri",
 						style: [
@@ -1617,6 +1751,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/Marisa 923_thumbnail.jpg",
 						img: "Image/Collection_large/Marisa 923.jpg",
 						designerName: "Marisa",
 						style: [
@@ -1632,6 +1767,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/glry-img1_thumbnail.jpg",
 						img: "Image/Collection_large/glry-img1.jpg",
 						designerName: "La Sposa Leira",
 						style: [
@@ -1647,6 +1783,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/2013-wedding-dress-pronovias-bridal-gowns-fashion-collection-diango__full_thumbnail.jpg",
 						img: "Image/Collection_large/2013-wedding-dress-pronovias-bridal-gowns-fashion-collection-diango__full.jpg",
 						designerName: "Pronovias",
 						style: [
@@ -1662,6 +1799,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/Odeta-1_thumbnail.jpg",
 						img: "Image/Collection_large/Odeta-1.jpg",
 						designerName: "Pronovias",
 						style: [
@@ -1677,6 +1815,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/WtooByWattersVanessa15410_thumbnail.jpg",
 						img: "Image/Collection_large/WtooByWattersVanessa15410.jpg",
 						designerName: "Wtoo by Watters Vanessa",
 						style: [
@@ -1692,6 +1831,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/WattersBridalTyler6078B_thumbnail.jpg",
 						img: "Image/Collection_large/WattersBridalTyler6078B.jpg",
 						designerName: "Watters Bridal Tyler",
 						style: [
@@ -1707,6 +1847,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/4214f-PALOMA_thumbnail.jpg",
 						img: "Image/Collection_large/4214f-PALOMA.jpg",
 						designerName: "Paloma Blanca",
 						style: [
@@ -1722,6 +1863,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/PalomaBlanca4356-1_thumbnail copy.png",
 						img: "Image/Collection_large/PalomaBlanca4356-1.png",
 						designerName: "Paloma Blanca",
 						style: [
@@ -1737,6 +1879,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/PalomaBlanca4413-1_thumbnail copy.png",
 						img: "Image/Collection_large/PalomaBlanca4413-1.png",
 						designerName: "Paloma Blanca",
 						style: [
@@ -1752,6 +1895,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/AC2_thumbnail.jpg",
 						img: "Image/Collection_large/AC2.jpg",
 						designerName: "Lace Casa Blanca",
 						style: [
@@ -1780,6 +1924,7 @@ angular.module('DesignerValue', [])
 				link: "judeJowlison.html",
 				gallery: [
 					{
+						thumbnail: "Image/Collection_Small/ABI8_2858_thumbnail.jpg",
 						img: "Image/Collection_large/ABI8_2858-low.jpg",
 						designerName: "",
 						style: [
@@ -1795,6 +1940,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/ABI8_2871-low_thumbnail.jpg",
 						img: "Image/Collection_large/ABI8_2871-low.jpg",
 						designerName: "",
 						style: [
@@ -1810,6 +1956,7 @@ angular.module('DesignerValue', [])
 						]
 					},					
 					{
+						thumbnail: "Image/Collection_Small/ABI8_2480-low_thumbnail.jpg",
 						img: "Image/Collection_large/ABI8_2480-low.jpg",
 						designerName: "",
 						style: [
@@ -1825,6 +1972,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/ABI8_2784_thumbnail.jpg",
 						img: "Image/Collection_large/ABI8_2784-low.jpg",
 						designerName: "",
 						style: [
@@ -1840,6 +1988,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/ABI8_2944_thumbnail.jpg",
 						img: "Image/Collection_large/ABI8_2944-low.jpg",
 						designerName: "",
 						style: [
@@ -1855,6 +2004,7 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
+						thumbnail: "Image/Collection_Small/HUPX9531_thumbnail.jpg",
 						img: "Image/Collection_large/HUPX9531-low.jpg",
 						designerName: "",
 						style: [
@@ -1870,6 +2020,7 @@ angular.module('DesignerValue', [])
 						]
 					},				
 					{
+						thumbnail: "Image/Collection_Small/judes-photo--229-low_thumbnail.jpg",
 						img: "Image/Collection_large/judes-photo--229-low.jpg",
 						designerName: "",
 						style: [

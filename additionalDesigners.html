@@ -89,7 +89,7 @@
 			</div>
 			<div class="designerGallery" ng-if="ctrl.mainHtml == true">
 				<div class="galleryBox inline" ng-repeat=" gallery in ctrl.additionalDesignerPaginate">
-					<img class="clickedImage" src="{{gallery.img}}"ng-click="ctrl.viewLargeImage(gallery.img, ctrl.additionalDesignerPaginate, $index)">
+					<img class="clickedImage" src="{{gallery.thumbnail}}"ng-click="ctrl.viewLargeImage(gallery.img, ctrl.additionalDesignerPaginate, $index)">
 					<p ng-bind="gallery.designerName"></p>
 				</div>
 				<div class="pageButtonDiv">

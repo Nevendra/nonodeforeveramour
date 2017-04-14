@@ -71,7 +71,7 @@ $(document).ready(function(){
 				}
 			};
 			stopStartScroll();
-			 $(badges).animate({width: "12%",opacity: 1}, 1000, function(){
+			 $(badges).animate({width: "12%", opacity: 1}, 1000, function(){
 			 	scrollPage = false;
 			 	stopStartScroll();
 			 });
@@ -87,12 +87,12 @@ $('.close').click(function(){
 	$('.events').css('display', 'none');
 })
 
-// var showEvents = function(){
-// 	setTimeout(function(){
-// 		$('.events').fadeIn(1000);
-// 	}, 6000);
-// }
-// showEvents();
+var showEvents = function(){
+	setTimeout(function(){
+		$('.events').fadeIn(1000);
+	}, 6000);
+}
+showEvents();
 
 
       $(".element").typed({

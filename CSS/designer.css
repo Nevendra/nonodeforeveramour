@@ -340,14 +340,15 @@ h5{
 }
 
 .galleryBox {
-  width: 100%; 
+  width: 250px; 
   height: 300px;
   text-align: center;
   margin-bottom: 20px;
   position: relative;
+  overflow: hidden;
 }
 .galleryBox img {
-  width: 60%; 
+  width: auto; 
   height: 100%;
 }
 /*.galleryBox:hover {
@@ -520,7 +521,7 @@ footer img {
  @media screen and (min-width: 400px) {
 
   .galleryBox {
-    height: 350px;
+    height: 300px;
     position: relative;
   }
   .additionalDesigner {
@@ -549,7 +550,7 @@ footer img {
 @media screen and (min-width: 550px) {
 
   .galleryBox {
-    height: 500px;
+    height: 300px;
     position: relative;
 }
 
@@ -558,7 +559,7 @@ footer img {
 @media screen and (min-width: 600px) {
 
   .galleryBox {
-    height: 500px;
+    height: 300px;
     position: relative;
   }
  
@@ -569,7 +570,7 @@ footer img {
 @media screen and (min-width: 625px) {
 
   .galleryBox {
-    height: 500px;
+    height: 300px;
     position: relative;
   }
 }
@@ -579,16 +580,16 @@ footer img {
 @media screen and (min-width: 700px) {
 
   .galleryBox {
-    width: 50%;
-    height: 400px;
+    width: 250;
+    height: 300px;
     position: relative;
     padding: 0px 20px;
   }
 
-  .galleryBox img {
-    width: 100%; 
+/*  .galleryBox img {
+    width: 240px; 
     height: 100%;
-  }
+  }*/
 
   .galleryBox p {
     position: absolute;
@@ -618,7 +619,7 @@ footer img {
   }
 
   .galleryBox {
-    width: 47%; 
+    width: 250px; 
     height: 300px;
     position: relative;
     padding: 0px 10px;
@@ -636,7 +637,7 @@ footer img {
   @media screen and (min-width: 900px) {
 
   .galleryBox { 
-    height: 350px;
+    height: 300px;
     position: relative;
     margin: 0px 10px 10px 0px;
   }
@@ -649,7 +650,7 @@ footer img {
 @media screen and (min-width: 1000px) {
 
   .galleryBox {
-    width: 30%; 
+    width: 250px; 
     height: 300px;
     padding: 0px;
   }
