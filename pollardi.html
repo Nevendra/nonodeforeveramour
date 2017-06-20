@@ -45,8 +45,9 @@
 			<li><a href="eddiek.html">Eddie K</a></li>
 			<li><a href="aboutJudeJowilson.html">Jude Jowilson</a></li>
 			<li><a href="justinAlexander.html">Justin Alexander</a></li>
+			<li><a href="pollardi.html">Pollardi</a></li>
 			<li><a href="nicolespose.html">Nicole Spose</a></li>
-			<li><a href="rosaClara.html">Rosa Clara</a></li>
+			<li><a href="sincerity.html">Sincerity</a></li>
 			<li><a href="venus.html">Venus</a></li>
 			<li><a href="lillianWest.html">Lillian West</a></li>						
 			<li><a href="additionalDesigners.html">Additional Designer</a></li>
@@ -67,7 +68,7 @@
           <li><a href="collection.html" class="currentPage btn btn-4">Our Collection</a></li>
           <li><a href="aboutJudeJowilson.html" class="currentPage btn btn-4">Jude Jowilson</a></li>
           <li><a href="contact.html" class="currentPage btn btn-4">Contact</a></li>
-          <li><a href="#" class="currentPage btn btn-4">Start Here</a></li>
+          <li><a href="game.html" class="currentPage btn btn-4">Take This Quiz</a></li>
           <li class="showAppointment"><a href="appointment.html" class="currentPage btn btn-4">Make An Appointment</a></li>
     </ul>
 <div class="stro">
@@ -83,21 +84,21 @@
 				<p>Additional Designers<span>               </span><span><i class="fa fa-bars" aria-hidden="true"></i></span></p>
 			</div>
 			<div class="designerAbout" ng-if="ctrl.mainHtml == true">
-				<div ng-repeat=" designer in ctrl.rosaClara[0]">
+				<div ng-repeat=" designer in ctrl.Pollardi[0]">
 					<h1 ng-bind="designer.name"></h1>
 					<p ng-bind="designer.description"></p>
 					<img src="{{designer.mainImage}}">
 				</div>
 			</div>
 			<div class="designerGallery" ng-if="ctrl.mainHtml == true">
-				<div class="galleryBox inline" ng-repeat=" gallery in ctrl.rosaClaraPaginate">
-					<img class="clickedImage" src="{{gallery.thumbnail}}" ng-click="ctrl.viewLargeImage(gallery.img, ctrl.rosaClaraPaginate, $index)">
+				<div class="galleryBox inline" ng-repeat=" gallery in ctrl.pollardiPaginate">
+					<img class="clickedImage" src="{{gallery.thumbnail}}" ng-click="ctrl.viewLargeImage(gallery.img, ctrl.pollardiPaginate, $index)">
 					<p ng-bind="gallery.designerName"></p>
 				</div>
 				<div class="pageButtonDiv">
-					<p class="previousMain" ng-click="ctrl.prevPage(ctrl.rosaClara[1], ctrl.current_page)">&laquo;</p>
+					<p class="previousMain" ng-click="ctrl.prevPage(ctrl.Pollardi[1], ctrl.current_page)">&laquo;</p>
 			
-					<p class="nextMain" ng-click="ctrl.nextPage(ctrl.rosaClara[1], ctrl.current_page)">&raquo;</p>
+					<p class="nextMain" ng-click="ctrl.nextPage(ctrl.Pollardi[1], ctrl.current_page)">&raquo;</p>
 				</div>
 			</div>
 			<div class="clear"></div>
@@ -105,9 +106,9 @@
 
 		<div class="selectedImage" ng-if="ctrl.clickedThumbNail == true">
 			<div class="selectedImageContent">
-				<p class="previous" ng-click="ctrl.prevImage(ctrl.rosaClara[1])">&laquo;</p>
+				<p class="previous" ng-click="ctrl.prevImage(ctrl.Pollardi[1])">&laquo;</p>
 				<img class-"theSelectedImage" src="{{ctrl.selectedImage}}">
-				<p class="next" ng-click="ctrl.nextImage(ctrl.rosaClara[1])">&raquo;</p>
+				<p class="next" ng-click="ctrl.nextImage(ctrl.Pollardi[1])">&raquo;</p>
 				<P class="close" ng-click="ctrl.closeDesignerImageGallerySelectedImage()">X</P>
 			</div>
 			<div class="clear"></div>

@@ -382,86 +382,38 @@ angular.module('DesignerValue', [])
 				]
 			},
 			{
-				name: "Lillian West",
-				description: "Lillian West enters the bridal fashion scene with the launch of its Preview 2014 collection. The collection features classic lines of rich satins, re-embroidered fine laces and soft romantic fabrics. Each wedding dress features stunning details that create exclusive works of art. The collection features plunging gowns with low backs, sexy slits, chic one shoulder neckline and beautiful classic lace silhouettes.",
-				featureOrExclusive: "feature",
-				mainImage: "Image/Collection_large/lillianWest_IMG_0686.JPG",
-				link: "lillianWest.html",
+				name: "Pollardi",
+				description: "A fabulous collection of the finest fabrics. Soft, slightly sexy and feminine styles that stands apart.",
+				featureOrExclusive: "exclusive",
+				mainImage: "Image/Collection_large/08057-Tender-Bell-1.jpg",
+				link: "pollardi.html",
 				gallery: [
 					{
-						thumbnail: "Image/Collection_Small/lillianWest_IMG_0686_thumbnail.jpg",
-						img: "Image/Collection_large/lillianWest_IMG_0686.JPG",
-						designerName: "",
-						style: [
-							{
-								name: "mermaid"
-							},
-							{
-								name: "sheath"
-							},
-							{
-								name: "on sale"
-							},
-						]
-					},		
-					{
-						thumbnail: "Image/Collection_Small/lillianwest_img_0935_thumbnail.jpg",
-						img: "Image/Collection_large/lillianWest_IMG_0935.png",
-						designerName: "",
-						style: [
-							{
-								name: "mermaid"
-							},
-							{
-								name: "sheath"
-							},
-							{
-								name: "on sale"
-							},
-						]
-					},		
-					{
-						thumbnail: "Image/Collection_Small/lillianwest_img_0936_thumbnail.jpg",
-						img: "Image/Collection_large/lillianWest_IMG_0936.png",
-						designerName: "",
-						style: [
-							{
-								name: "ball gown"
-							},
-							{
-								name: "fit and flare"
-							},
-							{
-								name: "not on sale"
-							},
-						]
-					},
-					{
-						thumbnail: "Image/Collection_Small/lillianwest_img_0937_thumbnail.jpg",
-						img: "Image/Collection_large/lillianWest_IMG_0937.png",
+						thumbnail: "Image/Collection_Small/08057-Tender-Bell-1.jpg",
+						img: "Image/Collection_large/08057-Tender-Bell-1.jpg",
 						designerName: "",
 						style: [
 							{
 								name: "a-line"
 							},
 							{
-								name: "sheath"
+								name: "fit and flare"
 							},
 							{
 								name: "on sale"
 							},
 						]
-					},					
+					},
 					{
-						thumbnail: "Image/Collection_Small/lillianwest_img_0938_thumbnail.jpg",
-						img: "Image/Collection_large/lillianWest_img_0938.png",
+						thumbnail: "Image/Collection_Small/08057-Tender-Bell-2.jpg",
+						img: "Image/Collection_large/08057-Tender-Bell-2.jpg",
 						designerName: "",
 						style: [
 							{
 								name: "trumpet"
 							},
 							{
-								name: "fit and flare"
+								name: "sheath"
 							},
 							{
 								name: "not on sale"
@@ -469,15 +421,15 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
-						thumbnail: "Image/Collection_Small/lillianwest_img_0939_thumbnail.jpg",
-						img: "Image/Collection_large/lillianWest_IMG_0939.png",
+						thumbnail: "Image/Collection_Small/08057-Tender-Bell-3.jpg",
+						img: "Image/Collection_large/08057-Tender-Bell-3.jpg",
 						designerName: "",
 						style: [
 							{
 								name: "mermaid"
 							},
 							{
-								name: "sheath"
+								name: "fit and flare"
 							},
 							{
 								name: "on sale"
@@ -485,179 +437,54 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
-						thumbnail: "Image/Collection_Small/lillianwest_img_0940_thumbnail.jpg",
-						img: "Image/Collection_large/lillianWest_IMG_0940.png",
+						thumbnail: "Image/Collection_Small/08059-Capricious-Narcissus-1.jpg",
+						img: "Image/Collection_large/08059-Capricious-Narcissus-1.jpg",
 						designerName: "",
 						style: [
 							{
 								name: "ball gown"
 							},
 							{
-								name: "fit and flare"
+								name: "sheath"
 							},
 							{
 								name: "not on sale"
 							},
 						]
 					},
-	
+					{
+						thumbnail: "Image/Collection_Small/08059-Capricious-Narcissus-2.jpg",
+						img: "Image/Collection_large/08059-Capricious-Narcissus-2.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "a-line"
+							},
+							{
+								name: "fit and flare"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},
+					{
+						thumbnail: "Image/Collection_Small/08059-Capricious-Narcissus-3.jpg",
+						img: "Image/Collection_large/08059-Capricious-Narcissus-3.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "trumpet"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "not on sale"
+							},
+						]
+					},					
 				]
-
-
-			},
-			{
-				name: "Eddy K",
-				description: "Designed in Milan, the fashion capital of the world, and manufactured with the highest quality fabrics. Sophisticated couture gowns and elegant destination dresses are made with the highest attention to detail that flatters every figure, taste, and occasion.",
-				featureOrExclusive: "feature",
-				mainImage: "Image/Collection_large/AK160_full.jpg",
-				link: "eddiek.html",
-				gallery: [
-					{
-						thumbnail: "Image/Collection_Small/AK160_full_thumbnail.jpg",
-						img: "Image/Collection_large/AK160_full.jpg",
-						designerName: "",
-						style: [
-							{
-								name: "mermaid"
-							},
-							{
-								name: "fit and flare"
-							},
-							{
-								name: "not on sale"
-							},
-						]
-					},
-					{
-						thumbnail: "Image/Collection_Small/AK181_full_thumbnail.jpg",
-						img: "Image/Collection_large/AK181_full.jpg",
-						designerName: "",
-						style: [
-							{
-								name: "ball gown"
-							},
-							{
-								name: "sheath"
-							},
-							{
-								name: "on sale"
-							},
-						]
-					},
-					{
-						thumbnail: "Image/Collection_Small/EddyK_1_thumbnail.jpg",
-						img: "Image/Collection_large/EddyK_1.jpg",
-						designerName: "",
-						style: [
-							{
-								name: "a-line"
-							},
-							{
-								name: "fit and flare"
-							},
-							{
-								name: "not on sale"
-							},
-						]
-					},
-					{
-						thumbnail: "Image/Collection_Small/EddyK_2_thumbnail.jpg",
-						img: "Image/Collection_large/EddyK_2.jpg",
-						designerName: "",
-						style: [
-							{
-								name: "trumpet"
-							},
-							{
-								name: "sheath"
-							},
-							{
-								name: "on sale"
-							},
-						]
-					},
-					{
-						thumbnail: "Image/Collection_Small//EddyK_3-cropped_thumbnail.jpg",
-						img: "Image/Collection_large/EddyK_3-cropped.jpg",
-						designerName: "",
-						style: [
-							{
-								name: "mermaid"
-							},
-							{
-								name: "fit and flare"
-							},
-							{
-								name: "not on sale"
-							},
-						]
-					},					
-					{
-						thumbnail: "Image/Collection_Small/EddyK_4-cropped_thumbnail.png",
-						img: "Image/Collection_large/EddyK_4-cropped.png",
-						designerName: "",
-						style: [
-							{
-								name: "ball gown"	
-							},
-							{
-								name: "sheath"
-							},
-							{
-								name: "on sale"
-							},
-						]
-					},					
-					{
-						thumbnail: "Image/Collection_Small/EK1084_back2_thumbnail.jpg",
-						img: "Image/Collection_large/EK1084_back2.jpg",
-						designerName: "",
-						style: [
-							{
-								name: "a-line"
-							},
-							{
-								name: "fit and flare"
-							},
-							{
-								name: "not on sale"
-							},
-						]
-					},
-					{
-						thumbnail: "Image/Collection_Small/EK1084_full-1_thumbnail.jpg",
-						img: "Image/Collection_large/EK1084_full-1.jpg",
-						designerName: "",
-						style: [
-							{
-								name: "trumpet"
-							},
-							{
-								name: "sheath"
-							},
-							{
-								name: "on sale"
-							},
-						]
-					},
-					{
-						thumbnail: "Image/Collection_Small/EK1088_full-e1464107889952_thumbnail.jpg",
-						img: "Image/Collection_large/EK1088_full-e1464107889952.jpg",
-						designerName: "",
-						style: [
-							{
-								name: "mermaid"
-							},
-							{
-								name: "fit and flare"
-							},
-							{
-								name: "not on sale"
-							},
-						]
-					},
-				]
-
 			},
 			{
 				name: "Justin Alexander",
@@ -666,6 +493,198 @@ angular.module('DesignerValue', [])
 				mainImage: "Image/Collection_large/JustinAlexander_3.png",
 				link: "justinAlexander.html",
 				gallery: [
+					{
+						thumbnail: "Image/Collection_Small/JAR_8911_FC_0207_thumbnail.jpg",
+						img: "Image/Collection_large/JAR_8911_FC_0207.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "mermaid"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},		
+					{
+						thumbnail: "Image/Collection_Small/JAR_8911_FB_0257_thumbnail.jpg",
+						img: "Image/Collection_large/JAR_8911_FB_0257.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "ball gown"
+							},
+							{
+								name: "fit and flare"
+							},
+							{
+								name: "not on sale"
+							},
+						]
+					},
+					{
+						thumbnail: "Image/Collection_Small/JAR_8911_FF_0176_thumbnail.jpg",
+						img: "Image/Collection_large/JAR_8911_FF_0176.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "a-line"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},					
+					{
+						thumbnail: "Image/Collection_Small/JAR_8928_FF_1507_thumbnail.jpg",
+						img: "Image/Collection_large/JAR_8928_FF_1507.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "trumpet"
+							},
+							{
+								name: "fit and flare"
+							},
+							{
+								name: "not on sale"
+							},
+						]
+					},
+					{
+						thumbnail: "Image/Collection_Small/JAR_8928_FC_1537_thumbnail.jpg",
+						img: "Image/Collection_large/JAR_8928_FC_1537.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "mermaid"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},		
+					{
+						thumbnail: "Image/Collection_Small/JAR_8928_FB_1691_thumbnail.jpg",
+						img: "Image/Collection_large/JAR_8928_FB_1691.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "ball gown"
+							},
+							{
+								name: "fit and flare"
+							},
+							{
+								name: "not on sale"
+							},
+						]
+					},
+					{
+						thumbnail: "Image/Collection_Small/JAR_8928_FB_1630_thumbnail.jpg",
+						img: "Image/Collection_large/JAR_8928_FB_1630.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "a-line"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},					
+					{
+						thumbnail: "Image/Collection_Small/JAR_8928_BC_1663_thumbnail.jpg",
+						img: "Image/Collection_large/JAR_8928_BC_1663.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "trumpet"
+							},
+							{
+								name: "fit and flare"
+							},
+							{
+								name: "not on sale"
+							},
+						]
+					},
+					{
+						thumbnail: "Image/Collection_Small/JAR_8919_FF_2077_thumbnail.jpg",
+						img: "Image/Collection_large/JAR_8919_FF_2077.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "ball gown"
+							},
+							{
+								name: "fit and flare"
+							},
+							{
+								name: "not on sale"
+							},
+						]
+					},
+					{
+						thumbnail: "Image/Collection_Small/JAR_8919_FC_2141_thumbnail.jpg",
+						img: "Image/Collection_large/JAR_8919_FC_2141.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "a-line"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},					
+					{
+						thumbnail: "Image/Collection_Small/JAR_8919_FB_2219_thumbnail.jpg",
+						img: "Image/Collection_large/JAR_8919_FB_2219.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "trumpet"
+							},
+							{
+								name: "fit and flare"
+							},
+							{
+								name: "not on sale"
+							},
+						]
+					},
+					{
+						thumbnail: "Image/Collection_Small/JAR_8919_BC_2274_thumbnail.jpg",
+						img: "Image/Collection_large/JAR_8919_BC_2274.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "mermaid"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},		
 					{
 						thumbnail: "Image/Collection_Small/JustinAlexander_3_thumbnail.png",
 						img: "Image/Collection_large/JustinAlexander_3.png",
@@ -1120,6 +1139,194 @@ angular.module('DesignerValue', [])
 
 			},
 			{
+				name: "Lillian West",
+				description: "Lillian West enters the bridal fashion scene with the launch of its Preview 2014 collection. The collection features classic lines of rich satins, re-embroidered fine laces and soft romantic fabrics. Each wedding dress features stunning details that create exclusive works of art. The collection features plunging gowns with low backs, sexy slits, chic one shoulder neckline and beautiful classic lace silhouettes.",
+				featureOrExclusive: "feature",
+				mainImage: "Image/Collection_large/lillianWest_IMG_0686.JPG",
+				link: "lillianWest.html",
+				gallery: [
+					{
+						thumbnail: "Image/Collection_Small/LW_6485_FC_1518_thumbnail.jpg",
+						img: "Image/Collection_large/LW_6485_FC_1518.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "mermaid"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},		
+					{
+						thumbnail: "Image/Collection_Small/LW_6485_BC_1546_thumbnail.jpg",
+						img: "Image/Collection_large/LW_6485_BC_1546.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "mermaid"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},		
+					{
+						thumbnail: "Image/Collection_Small/LW_6494_FC_0013_thumbnail.jpg",
+						img: "Image/Collection_large/LW_6494_FC_0013.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "ball gown"
+							},
+							{
+								name: "fit and flare"
+							},
+							{
+								name: "not on sale"
+							},
+						]
+					},
+					{
+						thumbnail: "Image/Collection_Small/LW_6494_BC_0031_thumbnail.jpg",
+						img: "Image/Collection_large/LW_6494_BC_0031.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "a-line"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},					
+					{
+						thumbnail: "Image/Collection_Small/lillianWest_IMG_0686_thumbnail.jpg",
+						img: "Image/Collection_large/lillianWest_IMG_0686.JPG",
+						designerName: "",
+						style: [
+							{
+								name: "mermaid"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},		
+					{
+						thumbnail: "Image/Collection_Small/lillianwest_img_0935_thumbnail.jpg",
+						img: "Image/Collection_large/lillianWest_IMG_0935.png",
+						designerName: "",
+						style: [
+							{
+								name: "mermaid"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},		
+					{
+						thumbnail: "Image/Collection_Small/lillianwest_img_0936_thumbnail.jpg",
+						img: "Image/Collection_large/lillianWest_IMG_0936.png",
+						designerName: "",
+						style: [
+							{
+								name: "ball gown"
+							},
+							{
+								name: "fit and flare"
+							},
+							{
+								name: "not on sale"
+							},
+						]
+					},
+					{
+						thumbnail: "Image/Collection_Small/lillianwest_img_0937_thumbnail.jpg",
+						img: "Image/Collection_large/lillianWest_IMG_0937.png",
+						designerName: "",
+						style: [
+							{
+								name: "a-line"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},					
+					{
+						thumbnail: "Image/Collection_Small/lillianwest_img_0938_thumbnail.jpg",
+						img: "Image/Collection_large/lillianWest_img_0938.png",
+						designerName: "",
+						style: [
+							{
+								name: "trumpet"
+							},
+							{
+								name: "fit and flare"
+							},
+							{
+								name: "not on sale"
+							},
+						]
+					},
+					{
+						thumbnail: "Image/Collection_Small/lillianwest_img_0939_thumbnail.jpg",
+						img: "Image/Collection_large/lillianWest_IMG_0939.png",
+						designerName: "",
+						style: [
+							{
+								name: "mermaid"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},
+					{
+						thumbnail: "Image/Collection_Small/lillianwest_img_0940_thumbnail.jpg",
+						img: "Image/Collection_large/lillianWest_IMG_0940.png",
+						designerName: "",
+						style: [
+							{
+								name: "ball gown"
+							},
+							{
+								name: "fit and flare"
+							},
+							{
+								name: "not on sale"
+							},
+						]
+					},
+	
+				]
+
+
+			},
+			{
 				name: "Nicole Spose",
 				description: "Nicole Spose has collections that speak of a fresh and young fashion, that dictate trends, while maintaining quality and tailoring. Exclusively at our salon in New York City.",
 				featureOrExclusive: "exclusive",
@@ -1129,6 +1336,246 @@ angular.module('DesignerValue', [])
 					{
 						thumbnail: "Image/Collection_Small/nicole-spose-NIAB17092-Nicole-moda-sposa-2017-616_thumbnail.jpg",
 						img: "Image/Collection_large/nicole-spose-NIAB17092.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "mermaid"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},
+					{
+						thumbnail: "Image/Collection_Small/nicole-spose-NIAB18001-Nicole-moda-sposa-2018-795.jpg",
+						img: "Image/Collection_large/nicole-spose-NIAB18001-Nicole-moda-sposa-2018-795.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "ball gown"
+							},
+							{
+								name: "fit and flare"
+							},
+							{
+								name: "not on sale"
+							},
+						]
+					},
+					{
+						thumbnail: "Image/Collection_Small/nicole-spose-NIAB18001-Nicole-moda-sposa-2018-842.jpg",
+						img: "Image/Collection_large/nicole-spose-NIAB18001-Nicole-moda-sposa-2018-842.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "a-line"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},
+					{
+						thumbnail: "Image/Collection_Small/nicole-spose-NIAB18006-Nicole-moda-sposa-2018-145.jpg",
+						img: "Image/Collection_large/nicole-spose-NIAB18006-Nicole-moda-sposa-2018-145.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "ball gown"
+							},
+							{
+								name: "fit and flare"
+							},
+							{
+								name: "not on sale"
+							},
+						]
+					},
+					{
+						thumbnail: "Image/Collection_Small/nicole-spose-NIAB18006-Nicole-moda-sposa-2018-255.jpg",
+						img: "Image/Collection_large/nicole-spose-NIAB18006-Nicole-moda-sposa-2018-255.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "a-line"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},
+					{
+						thumbnail: "Image/Collection_Small/nicole-spose-NIAB18006-Nicole-moda-sposa-2018-586.jpg",
+						img: "Image/Collection_large/nicole-spose-NIAB18006-Nicole-moda-sposa-2018-586.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "trumpet"
+							},
+							{
+								name: "fit and flare"
+							},
+							{
+								name: "not on sale"
+							},
+						]
+					},
+					{
+						thumbnail: "Image/Collection_Small/nicole-spose-NIAB18006-Nicole-moda-sposa-2018-903.jpg",
+						img: "Image/Collection_large/nicole-spose-NIAB18006-Nicole-moda-sposa-2018-903.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "ball gown"
+							},
+							{
+								name: "fit and flare"
+							},
+							{
+								name: "not on sale"
+							},
+						]
+					},
+					{
+						thumbnail: "Image/Collection_Small/nicole-spose-NIAB18014-Nicole-moda-sposa-2018-299.jpg",
+						img: "Image/Collection_large/nicole-spose-NIAB18014-Nicole-moda-sposa-2018-299.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "a-line"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},
+					{
+						thumbnail: "Image/Collection_Small/nicole-spose-NIAB18014-Nicole-moda-sposa-2018-494.jpg",
+						img: "Image/Collection_large/nicole-spose-NIAB18014-Nicole-moda-sposa-2018-494.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "ball gown"
+							},
+							{
+								name: "fit and flare"
+							},
+							{
+								name: "not on sale"
+							},
+						]
+					},
+					{
+						thumbnail: "Image/Collection_Small/nicole-spose-NIAB18006-Nicole-moda-sposa-2018-255.jpg",
+						img: "Image/Collection_large/nicole-spose-NIAB18006-Nicole-moda-sposa-2018-255.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "a-line"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},
+					{
+						thumbnail: "Image/Collection_Small/nicole-spose-NIAB18014-Nicole-moda-sposa-2018-584.jpg",
+						img: "Image/Collection_large/nicole-spose-NIAB18014-Nicole-moda-sposa-2018-584.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "trumpet"
+							},
+							{
+								name: "fit and flare"
+							},
+							{
+								name: "not on sale"
+							},
+						]
+					},					
+					{
+						thumbnail: "Image/Collection_Small/nicole-spose-NIAB18014-Nicole-moda-sposa-2018-870.jpg",
+						img: "Image/Collection_large/nicole-spose-NIAB18014-Nicole-moda-sposa-2018-870.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "mermaid"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},				
+					{
+						thumbnail: "Image/Collection_Small/nicole-spose-NIAB18020-Nicole-moda-sposa-2018-195.jpg",
+						img: "Image/Collection_large/nicole-spose-NIAB18020-Nicole-moda-sposa-2018-195.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "mermaid"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},
+					{
+						thumbnail: "Image/Collection_Small/nicole-spose-NIAB18020-Nicole-moda-sposa-2018-380.jpg",
+						img: "Image/Collection_large/nicole-spose-NIAB18020-Nicole-moda-sposa-2018-380.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "trumpet"
+							},
+							{
+								name: "fit and flare"
+							},
+							{
+								name: "not on sale"
+							},
+						]
+					},					
+					{
+						thumbnail: "Image/Collection_Small/nicole-spose-NIAB18020-Nicole-moda-sposa-2018-430.jpg",
+						img: "Image/Collection_large/nicole-spose-NIAB18020-Nicole-moda-sposa-2018-430.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "mermaid"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},				
+					{
+						thumbnail: "Image/Collection_Small/nicole-spose-NIAB18020-Nicole-moda-sposa-2018-763.jpg",
+						img: "Image/Collection_large/nicole-spose-NIAB18020-Nicole-moda-sposa-2018-763.jpg",
 						designerName: "",
 						style: [
 							{
@@ -1317,15 +1764,15 @@ angular.module('DesignerValue', [])
 			},
 
 			{
-				name: "Rosa Clará",
-				description: "Starting out in Barcelona and opening one of the world's most prestigious bridalwear shows - Barcelona Bridal Week, this brand will soon spread throughout Spain and the rest of the world. Today, it still offers innovative designs created from the highest quality fabrics.",
+				name: "Sincerity",
+				description: "Sincerity's was designed to be as unforgettable as the woman who wears it. Every gown embodies the beautiful romance of a modern era.",
 				featureOrExclusive: "feature",
-				mainImage: "Image/Collection_large/RosaClaraKnot39.jpg",
-				link: "rosaClara.html",
+				mainImage: "Image/Collection_Small/SIN_3981_RS_0065_thumbnail.jpg",
+				link: "sincerity.html",
 				gallery: [
 					{
-						thumbnail: "Image/Collection_Small/RosaClaraKnot39_thumbnail.jpg",
-						img: "Image/Collection_large/RosaClaraKnot39.jpg",
+						thumbnail: "Image/Collection_Small/SIN_3981_RS_0065_thumbnail.jpg",
+						img: "Image/Collection_large/SIN_3981_RS_0065.jpg",
 						designerName: "",
 						style: [
 							{
@@ -1340,8 +1787,24 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
-						thumbnail: "Image/Collection_Small/RosaClaraKnot40_thumbnail.jpg",
-						img: "Image/Collection_large/RosaClaraKnot40.jpg",
+						thumbnail: "Image/Collection_Small/SIN_3981_RS_0004_thumbnail.jpg",
+						img: "Image/Collection_large/SIN_3981_RS_0004.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "ball gown"
+							},
+							{
+								name: "fit and flare"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},
+					{
+						thumbnail: "Image/Collection_Small/SIN_3981_RS_0078_thumbnail.jpg",
+						img: "Image/Collection_large/SIN_3981_RS_0078.jpg",
 						designerName: "",
 						style: [
 							{
@@ -1356,8 +1819,8 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
-						thumbnail: "Image/Collection_Small/RosaClaraKnot29_thumbnail.jpg",
-						img: "Image/Collection_large/RosaClaraKnot29.jpg",
+						thumbnail: "Image/Collection_Small/SIN_3981_RS_0143_thumbnail.jpg",
+						img: "Image/Collection_large/SIN_3981_RS_0143.jpg",
 						designerName: "",
 						style: [
 							{
@@ -1372,8 +1835,8 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
-						thumbnail: "Image/Collection_Small/RosaClaraKnot30_thumbnail.jpg",
-						img: "Image/Collection_large/RosaClaraKnot30.jpg",
+						thumbnail: "Image/Collection_Small/SIN_3971_RS_0022_thumbnail.jpg",
+						img: "Image/Collection_large/SIN_3971_RS_0022.jpg",
 						designerName: "",
 						style: [
 							{
@@ -1388,8 +1851,8 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
-						thumbnail: "Image/Collection_Small/RosaClaraKnot31_thumbnail.jpg",
-						img: "Image/Collection_large/RosaClaraKnot31.jpg",
+						thumbnail: "Image/Collection_Small/SIN_3971_RS_0042_thumbnail.jpg",
+						img: "Image/Collection_large/SIN_3971_RS_0042.jpg",
 						designerName: "",
 						style: [
 							{
@@ -1404,8 +1867,8 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
-						thumbnail: "Image/Collection_Small/RosaClaraKnot32_thumbnail.jpg",
-						img: "Image/Collection_large/RosaClaraKnot32.jpg",
+						thumbnail: "Image/Collection_Small/SIN_3971_RS_0092_thumbnail.jpg",
+						img: "Image/Collection_large/SIN_3971_RS_0092.jpg",
 						designerName: "",
 						style: [
 							{
@@ -1420,8 +1883,8 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
-						thumbnail: "Image/Collection_Small/RosaClaraKnot33_thumbnail.jpg",
-						img: "Image/Collection_large/RosaClaraKnot33.jpg",
+						thumbnail: "Image/Collection_Small/SIN_3971_RS_0151_thumbnail.jpg",
+						img: "Image/Collection_large/SIN_3971_RS_0151.jpg",
 						designerName: "",
 						style: [
 							{
@@ -1436,8 +1899,8 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
-						thumbnail: "Image/Collection_Small/RosaClaraKnot34_thumbnail.jpg",
-						img: "Image/Collection_large/RosaClaraKnot34.jpg",
+						thumbnail: "Image/Collection_Small/SIN_3972_0037_thumbnail.jpg",
+						img: "Image/Collection_large/SIN_3972_0037.jpg",
 						designerName: "",
 						style: [
 							{
@@ -1452,8 +1915,8 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
-						thumbnail: "Image/Collection_Small/RosaClaraKnot35_thumbnail.jpg",
-						img: "Image/Collection_large/RosaClaraKnot35.jpg",
+						thumbnail: "Image/Collection_Small/SIN_3972_0071_thumbnail.jpg",
+						img: "Image/Collection_large/SIN_3972_0071.jpg",
 						designerName: "",
 						style: [
 							{
@@ -1468,24 +1931,8 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
-						thumbnail: "Image/Collection_Small/RosaClaraKnot36_thumbnail.jpg",
-						img: "Image/Collection_large/RosaClaraKnot36.jpg",
-						designerName: "",
-						style: [
-							{
-								name: "trumpet"
-							},
-							{
-								name: "sheath"
-							},
-							{
-								name: "not on sale"
-							},
-						]
-					},
-					{
-						thumbnail: "Image/Collection_Small/RosaClaraKnot37_thumbnail.jpg",
-						img: "Image/Collection_large/RosaClaraKnot37.jpg",
+						thumbnail: "Image/Collection_Small/SIN_3972_0115_thumbnail.jpg",
+						img: "Image/Collection_large/SIN_3972_0115.jpg",
 						designerName: "",
 						style: [
 							{
@@ -1500,8 +1947,8 @@ angular.module('DesignerValue', [])
 						]
 					},
 					{
-						thumbnail: "Image/Collection_Small/RosaClaraKnot38_thumbnail.jpg",
-						img: "Image/Collection_large/RosaClaraKnot38.jpg",
+						thumbnail: "Image/Collection_Small/SIN_3972_0157_thumbnail.jpg",
+						img: "Image/Collection_large/SIN_3972_0157.jpg",
 						designerName: "",
 						style: [
 							{
@@ -1514,10 +1961,53 @@ angular.module('DesignerValue', [])
 								name: "not on sale"
 							},
 						]
+					}
+				]
+
+
+			},
+			{
+				name: "Eddy K",
+				description: "Designed in Milan, the fashion capital of the world, and manufactured with the highest quality fabrics. Sophisticated couture gowns and elegant destination dresses are made with the highest attention to detail that flatters every figure, taste, and occasion.",
+				featureOrExclusive: "feature",
+				mainImage: "Image/Collection_large/AK160_full.jpg",
+				link: "eddiek.html",
+				gallery: [
+					{
+						thumbnail: "Image/Collection_Small/AK160_full_thumbnail.jpg",
+						img: "Image/Collection_large/AK160_full.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "mermaid"
+							},
+							{
+								name: "fit and flare"
+							},
+							{
+								name: "not on sale"
+							},
+						]
 					},
 					{
-						thumbnail: "Image/Collection_Small/RosaClaraKnot41_thumbnail.jpg",
-						img: "Image/Collection_large/RosaClaraKnot41.jpg",
+						thumbnail: "Image/Collection_Small/AK181_full_thumbnail.jpg",
+						img: "Image/Collection_large/AK181_full.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "ball gown"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},
+					{
+						thumbnail: "Image/Collection_Small/EddyK_1_thumbnail.jpg",
+						img: "Image/Collection_large/EddyK_1.jpg",
 						designerName: "",
 						style: [
 							{
@@ -1527,13 +2017,13 @@ angular.module('DesignerValue', [])
 								name: "fit and flare"
 							},
 							{
-								name: "on sale"
+								name: "not on sale"
 							},
 						]
 					},
 					{
-						thumbnail: "Image/Collection_Small/RosaClaraKnot42_thumbnail.jpg",
-						img: "Image/Collection_large/RosaClaraKnot42.jpg",
+						thumbnail: "Image/Collection_Small/EddyK_2_thumbnail.jpg",
+						img: "Image/Collection_large/EddyK_2.jpg",
 						designerName: "",
 						style: [
 							{
@@ -1541,6 +2031,86 @@ angular.module('DesignerValue', [])
 							},
 							{
 								name: "sheath"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},
+					{
+						thumbnail: "Image/Collection_Small//EddyK_3-cropped_thumbnail.jpg",
+						img: "Image/Collection_large/EddyK_3-cropped.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "mermaid"
+							},
+							{
+								name: "fit and flare"
+							},
+							{
+								name: "not on sale"
+							},
+						]
+					},					
+					{
+						thumbnail: "Image/Collection_Small/EddyK_4-cropped_thumbnail.png",
+						img: "Image/Collection_large/EddyK_4-cropped.png",
+						designerName: "",
+						style: [
+							{
+								name: "ball gown"	
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},					
+					{
+						thumbnail: "Image/Collection_Small/EK1084_back2_thumbnail.jpg",
+						img: "Image/Collection_large/EK1084_back2.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "a-line"
+							},
+							{
+								name: "fit and flare"
+							},
+							{
+								name: "not on sale"
+							},
+						]
+					},
+					{
+						thumbnail: "Image/Collection_Small/EK1084_full-1_thumbnail.jpg",
+						img: "Image/Collection_large/EK1084_full-1.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "trumpet"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},
+					{
+						thumbnail: "Image/Collection_Small/EK1088_full-e1464107889952_thumbnail.jpg",
+						img: "Image/Collection_large/EK1088_full-e1464107889952.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "mermaid"
+							},
+							{
+								name: "fit and flare"
 							},
 							{
 								name: "not on sale"
@@ -1548,7 +2118,6 @@ angular.module('DesignerValue', [])
 						]
 					},
 				]
-
 
 			},
 			{

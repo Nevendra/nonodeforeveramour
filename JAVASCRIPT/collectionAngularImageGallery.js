@@ -31,19 +31,21 @@ angular.module('CollectionImageGallery', ['DesignerService', 'DesignerValue'])
 	self.justinAlexander = self.designersArray.getDesigner("Justin Alexander");
 	self.nicoleSpose = self.designersArray.getDesigner("Nicole Spose");
 	self.eddieK = self.designersArray.getDesigner("Eddy K");
-	self.rosaClara = self.designersArray.getDesigner("Rosa Clará");
+	self.sincerity = self.designersArray.getDesigner("Sincerity");
 	self.venus = self.designersArray.getDesigner("Venus");
 	self.additionalDesigner = self.designersArray.getDesigner("Additional Designers");
 	self.LillianWest = self.designersArray.getDesigner("Lillian West");
+	self.Pollardi = self.designersArray.getDesigner("Pollardi");
 
 
 	self.additionalDesignerPaginate = PaginateDesigner.PaginateDesignerFunction(self.additionalDesigner[1], self.current_page, self.pageClicked);
 	self.justinAlexanderPaginate = PaginateDesigner.PaginateDesignerFunction(self.justinAlexander[1], self.current_page, self.pageClicked);
 	self.nicoleSposePaginate = PaginateDesigner.PaginateDesignerFunction(self.nicoleSpose[1], self.current_page, self.pageClicked);
 	self.eddieKPaginate = PaginateDesigner.PaginateDesignerFunction(self.eddieK[1], self.current_page, self.pageClicked);
-	self.rosaClaraPaginate = PaginateDesigner.PaginateDesignerFunction(self.rosaClara[1], self.current_page, self.pageClicked);
+	self.sincerityPaginate = PaginateDesigner.PaginateDesignerFunction(self.sincerity[1], self.current_page, self.pageClicked);
 	self.venusPaginate = PaginateDesigner.PaginateDesignerFunction(self.venus[1], self.current_page, self.pageClicked);
 	self.LillianWestPaginate = PaginateDesigner.PaginateDesignerFunction(self.LillianWest[1], self.current_page, self.pageClicked);
+	self.pollardiPaginate = PaginateDesigner.PaginateDesignerFunction(self.Pollardi[1], self.current_page, self.pageClicked);
 
 
 
@@ -97,9 +99,10 @@ angular.module('CollectionImageGallery', ['DesignerService', 'DesignerValue'])
 	        	self.justinAlexanderPaginate = PaginateDesigner.PaginateDesignerFunction(array, self.current_page, self.pageClicked);
 				self.nicoleSposePaginate = PaginateDesigner.PaginateDesignerFunction(array, self.current_page, self.pageClicked);
 				self.eddieKPaginate = PaginateDesigner.PaginateDesignerFunction(array, self.current_page, self.pageClicked);
-				self.rosaClaraPaginate = PaginateDesigner.PaginateDesignerFunction(array, self.current_page, self.pageClicked);
+				self.sincerityPaginate = PaginateDesigner.PaginateDesignerFunction(array, self.current_page, self.pageClicked);
 				self.venusPaginate = PaginateDesigner.PaginateDesignerFunction(array, self.current_page, self.pageClicked);
 				self.LillianWestPaginate = PaginateDesigner.PaginateDesignerFunction(array, self.current_page, self.pageClicked);
+				self.pollardiPaginate = PaginateDesigner.PaginateDesignerFunction(array, self.current_page, self.pageClicked);
 
 	}
 
@@ -116,9 +119,10 @@ angular.module('CollectionImageGallery', ['DesignerService', 'DesignerValue'])
 	        	self.justinAlexanderPaginate = PaginateDesigner.PaginateDesignerFunction(array, self.current_page, self.pageClicked);
 				self.nicoleSposePaginate = PaginateDesigner.PaginateDesignerFunction(array, self.current_page, self.pageClicked);
 				self.eddieKPaginate = PaginateDesigner.PaginateDesignerFunction(array, self.current_page, self.pageClicked);
-				self.rosaClaraPaginate = PaginateDesigner.PaginateDesignerFunction(array, self.current_page, self.pageClicked);
+				self.sincerityPaginate = PaginateDesigner.PaginateDesignerFunction(array, self.current_page, self.pageClicked);
 				self.venusPaginate = PaginateDesigner.PaginateDesignerFunction(array, self.current_page, self.pageClicked);
 				self.LillianWestPaginate = PaginateDesigner.PaginateDesignerFunction(array, self.current_page, self.pageClicked);
+				self.pollardiPaginate = PaginateDesigner.PaginateDesignerFunction(array, self.current_page, self.pageClicked);
 	
 	}
 
