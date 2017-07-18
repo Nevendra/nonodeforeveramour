@@ -1146,6 +1146,54 @@ angular.module('DesignerValue', [])
 				link: "lillianWest.html",
 				gallery: [
 					{
+						thumbnail: "Image/Collection_Small/thumbnaillillianwest6437.jpg",
+						img: "Image/Collection_large/bigpicturelillianwest6437.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "mermaid"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},	
+					{
+						thumbnail: "Image/Collection_Small/thumbnaillillianwest6422.jpg",
+						img: "Image/Collection_large/bigpicturelillianwest6422.jpg",
+						designerName: "",
+						style: [
+							{
+								name: "mermaid"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},
+					{
+						thumbnail: "Image/Collection_Small/thumbnailLILLIANWEST6468.png",
+						img: "Image/Collection_large/bigpictureLILLIANWEST6468.png",
+						designerName: "",
+						style: [
+							{
+								name: "mermaid"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},	
+					{
 						thumbnail: "Image/Collection_Small/LW_6485_FC_1518_thumbnail.jpg",
 						img: "Image/Collection_large/LW_6485_FC_1518.jpg",
 						designerName: "",
@@ -1333,6 +1381,54 @@ angular.module('DesignerValue', [])
 				mainImage: "Image/Collection_large/nicole-spose-NIAB17092.jpg",
 				link: "nicolespose.html",
 				gallery: [
+					{
+						thumbnail: "Image/Collection_Small/thumbnailnicolecoab18287.png",
+						img: "Image/Collection_large/bigphotonicolecoab18287.png",
+						designerName: "",
+						style: [
+							{
+								name: "mermaid"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},
+					{
+						thumbnail: "Image/Collection_Small/thumbnailniaNICOLEb18081.png",
+						img: "Image/Collection_large/pigpictureniNICOLEab18081.png",
+						designerName: "",
+						style: [
+							{
+								name: "ball gown"
+							},
+							{
+								name: "fit and flare"
+							},
+							{
+								name: "not on sale"
+							},
+						]
+					},
+					{
+						thumbnail: "Image/Collection_Small/thumbnailniabNICOLE18003.png",
+						img: "Image/Collection_large/bigpictureniabNICOLE18003.png",
+						designerName: "",
+						style: [
+							{
+								name: "a-line"
+							},
+							{
+								name: "sheath"
+							},
+							{
+								name: "on sale"
+							},
+						]
+					},////////////
 					{
 						thumbnail: "Image/Collection_Small/nicole-spose-NIAB17092-Nicole-moda-sposa-2017-616_thumbnail.jpg",
 						img: "Image/Collection_large/nicole-spose-NIAB17092.jpg",
