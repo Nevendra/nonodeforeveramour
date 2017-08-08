@@ -1,74 +1,80 @@
 
 $(document).ready(function(){
-	var nav;
-	var navHeight;
-	var windowsHeight;
-	var windowsWidth;
-	var currentSlide;
-
-	var sliderWrapper;
-	var sliderContainer;
-	var slides;
-	var slidesImg;
-	var sliderWidth;
 	var sliderInterval;
+	// var sliderWrapper;
+	// var slides;
+	// var currentSlide;
 
 
-	function getInfo(currentSlide){
-		// nav = $("nav");
-		// navHeight = nav.height();
-		// windowsHeight = window.innerHeight;
-		// windowsWidth = window.innerWidth;
-		sliderWrapper = $(".sliderWrapper");
-		sliderContainer = sliderWrapper.find(".designerSliderContainer");
-		// sliderContainer.css("height", windowsHeight - navHeight);
-		slides = sliderContainer.find(".designerSlides");
-		slidesImg = sliderContainer.find(".designerSlides img");
-		sliderWidth = sliderWrapper.width();
-		slides.css("width", sliderWidth);
-		console.log(windowsWidth);
-		console.log(sliderWrapper.width());
-		console.log(sliderWidth);
-		console.log(slides.width());
+	var nav = $(' nav ul');
 
-		sliderFeature(sliderContainer, sliderWidth, currentSlide);
+	$('.hamburger').click(function(){
+		$('nav ul').slideToggle(1000)
+	})
+
+	function clearIntervalFunction() {
+	    clearInterval(sliderInterval);
 	}
 
-	getInfo();
-
-	$(window).on('resize',function(){location.reload();});
 
 
+$(window).resize(windowSize);
 
-	function sliderFeature(sliderContainer, sliderWidth, currentSlide){
-		sliderContainerFunc = sliderContainer;
-		sliderWidthFunc = sliderWidth;
+	function sliderfunction(){
 		var animationSpeed = 1000;
 		var sliderSpeed = 3000;
-		sliderContainerFunc.css("width", 6 * sliderWidthFunc);
+		var	currentSlide = 1;
+		var sliderWrapper = $(".sliderWrapper");
+			sliderWrapper.css("width", windowsWidth);
+		var sliderContainer = sliderWrapper.find(".designerSliderContainer");
+			sliderContainer.css('margin-left', 0);
+		var slides = sliderContainer.find(".designerSlides");
+			slides.css("width", windowsWidth);
+		var sliderWidth = slides.width();
+		sliderContainer.css("width", slides.length * slides.width());
 
 		function imgSlider(){
 				sliderInterval = setInterval(function(){
-					sliderContainerFunc.animate({"margin-left": "-=" + sliderWidthFunc}, animationSpeed, function(){
-							if(currentSlide === undefined){
-								currentSlide = 2;
-							} else if(currentSlide === 4){
+					console.log(currentSlide);
+					sliderContainer.animate({"margin-left": "-=" + sliderWidth}, animationSpeed, function(){
+							currentSlide = currentSlide + 1;
+							if(currentSlide === slides.length){
 								currentSlide = 1;
-								sliderContainerFunc.css("margin-left", 0);
-							}else if(currentSlide < 4){
-								currentSlide = currentSlide + 1;
-							}
+								console.log(currentSlide);
+								sliderContainer.css("margin-left", 0);
+							}/// ends first if
 
-					});
+					});/// ends sliderContainer animate function
 
-			}, sliderSpeed);
+			}, sliderSpeed);///ends sliderInterval
 
-		}
+		}/// ends imgSlider
 
 		imgSlider();
 	}
 
+// sliderfunction()
 
+
+	function windowSize(){
+		console.log("active");
+		windowsWidth = $(window).width();
+
+
+		clearIntervalFunction();
+
+		function hamburger() {
+
+				if(windowsWidth > 949 && nav.is(':hidden')){
+					nav.removeAttr('style');
+				}
+			};
+
+			hamburger();
+			sliderfunction();
+	}
+
+	windowSize()
 
 
 });

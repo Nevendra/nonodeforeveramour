@@ -312,7 +312,12 @@ h5{
 .appoint a{
   color: #ef8e89;
 }
-
+.desktopMessage {
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
+  color: red;
+}
 
 
 
