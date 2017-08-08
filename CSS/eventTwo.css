@@ -277,15 +277,29 @@ h5{
   text-align: center;
 }
 
+/*.sliderWrapper {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.designerSliderContainer {
+}
+.designerSlides {
+  text-align: center;
+  float: left;
+}
+
+.designerSlides img {
+  width: 320px;
+  height: 400px;
+}*/
 .sliderWrapper {
   width: 100%;
-  height: 100vh;
   margin: 0 auto;
   overflow: hidden;
 }
 .sliderWrapper .designerSliderContainer {
   display: block;
-  height: 100vh;
   padding: 0px;
   margin: 0px;
 }
@@ -293,7 +307,7 @@ h5{
   float: left;
   list-style-type: none;
   width: 100%;
-  height: 100vh;
+  height: 400px;
   text-align: center;
 }
 .designerSlides img{

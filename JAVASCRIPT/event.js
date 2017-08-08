@@ -1,7 +1,6 @@
 
 $(document).ready(function(){
 	var sliderInterval;
-	var windowsWidth = $(window).width();
 	// var sliderWrapper;
 	// var slides;
 	// var currentSlide;
