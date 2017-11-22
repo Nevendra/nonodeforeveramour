@@ -285,7 +285,7 @@ h5{
 }
 /*-------------------BACK GROUND IMG-----------------------------*/
 .events {
-  background: url(../Image/LW_1080.jpg)no-repeat center center; 
+  background: url(../Image/FullSizeRender.jpg)no-repeat center center; 
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
@@ -640,6 +640,19 @@ footer img {
     font-size: 50px;
   }
 
+  .close {
+    text-align: center;
+    color: red;
+    position: absolute;
+    width: 60px;
+    top: 0px;
+    left: 0px;
+    font-size: 60px;
+    /* background-color: white; */
+    border: solid 1px red;
+    border-radius: 30px;
+  }
+
 }
 
 /********************************** 700PX *************************************************/
@@ -708,6 +721,18 @@ footer img {
     z-index: 1;
     text-align: center;
   }*/
+  .close {
+    text-align: center;
+    color: red;
+    position: absolute;
+    width: 80px;
+    top: 0px;
+    left: 0px;
+    font-size: 80px;
+    /* background-color: white; */
+    border: solid 1px red;
+    border-radius: 70px;
+  }
 
 }
 

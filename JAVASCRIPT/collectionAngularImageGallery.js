@@ -6,6 +6,38 @@ angular.module('CollectionImageGallery', ['DesignerService', 'DesignerValue'])
 .controller("CollectionImageGalleryController", function(DesignerListFactory, $location, $anchorScroll, PaginateDesigner, CollectionArray, JudeObject) {
 
 	var self = this;
+
+	/// setting collections ///
+	self.designersArray = new DesignerListFactory(CollectionArray);
+	self.featureDesignerList = self.designersArray.onlyFeature();
+	self.exclusiveDesignerList = self.designersArray.onlyExclusive();
+
+	/// set single designers ///
+	self.justinAlexander = self.designersArray.getDesigner("Justin Alexander");
+	self.nicoleSpose = self.designersArray.getDesigner("Nicole Spose");
+	self.eddieK = self.designersArray.getDesigner("Eddy K");
+	self.sincerity = self.designersArray.getDesigner("Sincerity");
+	self.venus = self.designersArray.getDesigner("Venus");
+	self.additionalDesigner = self.designersArray.getDesigner("Additional Designers");
+	self.LillianWest = self.designersArray.getDesigner("Lillian West");
+	self.Pollardi = self.designersArray.getDesigner("Pollardi");
+
+	/// set jude info and gallery ///
+	self.justJudeObject = JudeObject;
+   	self.justJudeGallery = self.justJudeObject.gallery;
+   	
+   	/// initial paginate image for designers ///
+   	self.current_page = 1;
+
+   	self.additionalDesignerPaginate = PaginateDesigner.PaginateDesignerFunction(self.additionalDesigner[1], self.current_page, self.pageClicked);
+	self.justinAlexanderPaginate = PaginateDesigner.PaginateDesignerFunction(self.justinAlexander[1], self.current_page, self.pageClicked);
+	self.nicoleSposePaginate = PaginateDesigner.PaginateDesignerFunction(self.nicoleSpose[1], self.current_page, self.pageClicked);
+	self.eddieKPaginate = PaginateDesigner.PaginateDesignerFunction(self.eddieK[1], self.current_page, self.pageClicked);
+	self.sincerityPaginate = PaginateDesigner.PaginateDesignerFunction(self.sincerity[1], self.current_page, self.pageClicked);
+	self.venusPaginate = PaginateDesigner.PaginateDesignerFunction(self.venus[1], self.current_page, self.pageClicked);
+	self.LillianWestPaginate = PaginateDesigner.PaginateDesignerFunction(self.LillianWest[1], self.current_page, self.pageClicked);
+	self.pollardiPaginate = PaginateDesigner.PaginateDesignerFunction(self.Pollardi[1], self.current_page, self.pageClicked);
+
 	self.scrollTo = function(id) {
       $location.hash(id);
       $anchorScroll();
@@ -20,35 +52,8 @@ angular.module('CollectionImageGallery', ['DesignerService', 'DesignerValue'])
         $anchorScroll();
       }
    	}
-   	self.justJudeObject = JudeObject;
-   	self.justJude = self.justJudeObject.gallery;
-   	self.current_page = 1;
-	self.designersArray = new DesignerListFactory(CollectionArray);
-	self.featureDesignerList = self.designersArray.onlyFeature();
-	self.exclusiveDesignerList = self.designersArray.onlyExclusive();
+
 	self.pageClicked = false;
-
-	self.justinAlexander = self.designersArray.getDesigner("Justin Alexander");
-	self.nicoleSpose = self.designersArray.getDesigner("Nicole Spose");
-	self.eddieK = self.designersArray.getDesigner("Eddy K");
-	self.sincerity = self.designersArray.getDesigner("Sincerity");
-	self.venus = self.designersArray.getDesigner("Venus");
-	self.additionalDesigner = self.designersArray.getDesigner("Additional Designers");
-	self.LillianWest = self.designersArray.getDesigner("Lillian West");
-	self.Pollardi = self.designersArray.getDesigner("Pollardi");
-
-
-	self.additionalDesignerPaginate = PaginateDesigner.PaginateDesignerFunction(self.additionalDesigner[1], self.current_page, self.pageClicked);
-	self.justinAlexanderPaginate = PaginateDesigner.PaginateDesignerFunction(self.justinAlexander[1], self.current_page, self.pageClicked);
-	self.nicoleSposePaginate = PaginateDesigner.PaginateDesignerFunction(self.nicoleSpose[1], self.current_page, self.pageClicked);
-	self.eddieKPaginate = PaginateDesigner.PaginateDesignerFunction(self.eddieK[1], self.current_page, self.pageClicked);
-	self.sincerityPaginate = PaginateDesigner.PaginateDesignerFunction(self.sincerity[1], self.current_page, self.pageClicked);
-	self.venusPaginate = PaginateDesigner.PaginateDesignerFunction(self.venus[1], self.current_page, self.pageClicked);
-	self.LillianWestPaginate = PaginateDesigner.PaginateDesignerFunction(self.LillianWest[1], self.current_page, self.pageClicked);
-	self.pollardiPaginate = PaginateDesigner.PaginateDesignerFunction(self.Pollardi[1], self.current_page, self.pageClicked);
-
-
-
 	self.clickedFeature = false;
 	self.clickedExclusive = false;
 	self.viewFeature = false;

@@ -11,9 +11,9 @@ angular.module('DesignerService', ['DesignerValue'])
 	DesignerListFactory.prototype.onlyExclusive = function(){
 		this.exclusive = [];
 		for(var i = 0; i < this.designerArray.length; i ++){
-			this.designer = this.designerArray[i];
-			if(this.designer.featureOrExclusive === "exclusive") {
-				this.isExclusive = this.designer;
+			this.singleDesigner = this.designerArray[i];
+			if(this.singleDesigner.featureOrExclusive === "exclusive") {
+				this.isExclusive = this.singleDesigner;
 				this.exclusive.push(this.isExclusive);
 			}
 		}
@@ -24,9 +24,9 @@ angular.module('DesignerService', ['DesignerValue'])
 	DesignerListFactory.prototype.onlyFeature = function(){
 		this.feature = [];
 		for(var i = 0; i < this.designerArray.length; i ++){
-			this.designer = this.designerArray[i];
-			if(this.designer.featureOrExclusive === "feature") {
-				this.isFeature = this.designer;
+			this.singleDesigner = this.designerArray[i];
+			if(this.singleDesigner.featureOrExclusive === "feature") {
+				this.isFeature = this.singleDesigner;
 				this.feature.push(this.isFeature);
 			}
 		}
@@ -35,22 +35,23 @@ angular.module('DesignerService', ['DesignerValue'])
 	};
 
 	DesignerListFactory.prototype.getDesigner = function(name){
-		this.additionalDesignerArray = [];
-		this.additionalDesignerGalleryArray;
-		this.additionalDesignerArrayAndGallery;
+		this.getDesignerArray = [];
+		this.getDesignerGalleryArray;
+		this.getDesignerArrayAndGallery;
 		for(var i = 0; i < this.designerArray.length; i ++){
-			this.designerObject = this.designerArray[i];
-			if(this.designerObject.name === name) {
-				this.additionalDesignerArray.push(this.designerObject);
+			this.singleDesigner = this.designerArray[i];
+			if(this.singleDesigner.name === name) {
+				this.isNamedDesigner = this.singleDesigner;
+				this.getDesignerArray.push(this.isNamedDesigner);
 			}
 		}
 
-		for(var i = 0; i < this.additionalDesignerArray.length; i ++){
-			this.additionalDesignerGalleryArray = this.additionalDesignerArray[i].gallery;
+		for(var i = 0; i < this.getDesignerArray.length; i ++){
+			this.getDesignerGalleryArray = this.getDesignerArray[i].gallery;
 		}
 
-		this.additionalDesignerArrayAndGallery = [this.additionalDesignerArray, this.additionalDesignerGalleryArray];
-		return this.additionalDesignerArrayAndGallery;
+		this.getDesignerArrayAndGallery = [this.getDesignerArray, this.getDesignerGalleryArray];
+		return this.getDesignerArrayAndGallery;
 	};
 
 	return DesignerListFactory;
@@ -58,7 +59,7 @@ angular.module('DesignerService', ['DesignerValue'])
 
 .service('PaginateDesigner', function(DesignerListFactory, CollectionArray){
 	var self = this;
-	self.PaginateDesignerFunction = function(array, page,  clickedPage){
+	self.PaginateDesignerFunction = function(array, page, clickedPage){
 		self.currentPage = page;
 		self.pageClicked = clickedPage;
 		self.designerPaginateArray = [];

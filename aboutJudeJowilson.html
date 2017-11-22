@@ -15,7 +15,7 @@
 
 	<link rel="stylesheet" type="text/css" href="CSS/font-awesome.css">
 
-	<link rel="stylesheet" type="text/css" href="CSS/aboutJudeJowilson.css">
+	<link rel="stylesheet" type="text/css" href="CSS/aboutJudeJowilsonCss.css">
 		<link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
 
 
@@ -43,7 +43,7 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-	<script src="JAVASCRIPT/aboutJudeJowilson.js" type="text/javascript" charset="utf-8"></script>
+	<script src="JAVASCRIPT/aboutJudeJowilsonJs.js" type="text/javascript" charset="utf-8"></script>
 
 </head>
 
@@ -83,9 +83,9 @@ function googleTranslateElementInit() {
 	<div class="content">
 		<div class="selectedImage" ng-if="ctrl.clickedThumbNail == true">
 			<div class="selectedImageContent">
-				<p class="previous" ng-click="ctrl.prevImage(ctrl.justJude)">&laquo;</p>
+				<p class="previous" ng-click="ctrl.prevImage(ctrl.justJudeGallery)">&laquo;</p>
 				<img class="theSelectedImage" src="{{ctrl.selectedImage}}">
-				<p class="next" ng-click="ctrl.nextImage(ctrl.justJude)">&raquo;</p>
+				<p class="next" ng-click="ctrl.nextImage(ctrl.justJudeGallery)">&raquo;</p>
 				<P class="close" ng-click="ctrl.closeDesignerImageGallerySelectedImage()">X</P>
 			</div>
 			<div class="clear"></div>
@@ -113,7 +113,7 @@ function googleTranslateElementInit() {
 
 		</div>
 		<div class="imageGallery">
-				<img ng-repeat="gallery in ctrl.justJude" ng-click="ctrl.viewLargeImage(gallery.img, ctrl.justJude, $index)" src="{{gallery.thumbnail}}">
+				<img ng-repeat="gallery in ctrl.justJudeGallery" ng-click="ctrl.viewLargeImage(gallery.img, ctrl.justJudeGallery, $index)" src="{{gallery.thumbnail}}">
 		</div>
 	</div>
 
